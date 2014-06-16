@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{makeidx}
+\author{Arias E., Sagasti A.}
+\date{\today}
+\title{Tesla cantaba Kumbaya alrededor de su bobina}
+\begin{document}
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+\part{Conceptos Fundamentales}
+\index{Conceptos Fundamentales}
+En este capítulo vamos a desarrollar las bases necesarias para poder llegar a un pleno entendimiento de la investigación. Es una especie de marco teórico donde se abarcará la terminología básica para luego poder desarrollarla(?) en los siguientes capítulos. No debe entenderse como un glosario o un capítulo de definiciones sino que, este es el comienzo de la investigación en su etapa más básica(?). Por tanto, comenzaremos(?) desarrollando(?) un poco sobre mecánica cuántica antes de su aplicación en la computación.
+
+\section*{Conceptos matemáticos}
+Para poder comprender mejor los postulados de la Teoría cuántica es necesario tener un conocimiento básico de álgebra lineal, específicamente sobre espacios vectoriales. Asumimos que el lector posee ya conocimiento(?) de este tema, sin embargo vamos a hacer un pequeño repaso en conceptos fundamentales. No ahondaremos en estos conceptos puesto que sería desarrollar toda una investigación por parte pero sentimos en que el lector(?) necesita al menos una pincelada acerca del tema.
+Shankar (1994) define los espacios vectoriales como:
+
+\begin{quote}
+\textit{Un espacio vectorial lineal $\mathbb{V}$ es una colección de objetos} $\vert1\rangle$,$\vert2\rangle$,...,$\vert V\rangle$,...,$\vert W\rangle$,..., llamados vectores, para los cuales existe
+\\\\
+1. Una regla definida para realizar la suma de vectores, denotada $\vert V\rangle+\vert W\rangle$
+\\2. Una regla definida para la multiplicación por escalares \textit{a,b,...,} denotada $a\vert V\rangle$ con las siguientes características:
+\\
+\begin{itemize}
+\item El resultado de estas operaciones resulta en otro elemento del espacio, una característica llamada \textit{cerrado}: $\vert V\rangle+ \vert W\rangle\in\mathbb{V}$.
+\item La multiplicación por escalares es \textit{distributiva en los vectores}: $a(\vert V\rangle+\vert W\rangle)=a\vert V\rangle+a\vert W\rangle$.
+\item La multiplicación por escalares es \textit{distributiva en los escalares}: $(a+b)\vert V\rangle=a\vert V\rangle+b\vert V\rangle$.
+\item La multiplicación por escalares es \textit{asociativa}: $a(b\vert V\rangle)=ab\vert V\rangle$.
+\item La suma es \textit{conmutativa}: $\vert V\rangle+\vert W\rangle=\vert W\rangle+\vert V\rangle$.
+\item La suma es \textit{asociativa}: $\vert V\rangle+(\vert W\rangle+\vert Z\rangle)=(\vert V\rangle+\vert W\rangle)+\vert Z\rangle$.
+\item Existe un \textit{vector nulo} $\vert 0\rangle$ que obedece $\vert V\rangle+\vert 0\rangle=\vert V\rangle$.
+\item Para cada vector $\vert V\rangle$ existe un \textit{inverso respecto a la suma}, $\vert -V\rangle$, tal que $\vert V\rangle+\vert -V\rangle=\vert 0\rangle$. (p. 2)
+\end{itemize}
+\end{quote}
+
+Esta notación de vectores $\vert V\rangle$ llamada \textit{notación Dirac} será muy utilizada más adelante cuando veamos los qubits, los cuales se rigen por las mismas reglas de espacios vectoriales mencionadas anteriormente. Además de estas reglas es necesario que contemplemos(?) los conceptos de \textit{campo}, \textit{combinaciones lineales} y \textit{bases ortonormales}.
+
+Es importante que definamos el \textit{campo} de un espacio vectorial. El campo se refiere al espacio donde están definidos los escalares que multiplican al espacio vectorial. Como los vectores no son número en sí, estos no se pueden multiplicar. Entonces, para poder multiplicar vectores necesitamos usar escalar inscritos a un campo. Por ejemplo, un \textit{espacio vectorial real} es un espacio definido por escalares reales. De igual manera tenemos los \textit{espacios vectoriales complejos}, entre otros.
+
+Debemos tener una noción básica de las combinaciones lineales en los espacios vectoriales. Adelantamos que los qubits son vectores de un espacios creados a partir de una combinación lineal que además forma una base ortonormal. Como definición básica encontramos que Arce, Castillo y González (2003) explican que:
+\begin{quote}
+\textit{
+Sea E un espacio vectorial y $\lbrace v_{1},v_{2},...,v_{p}\rbrace$, un conjunto de vectores de E. Se llama combinación lineal de los vectores $v_{1},v_{2},...,v_{p}$ al vector
+\begin{center}
+$v=a_{1}v_{1}+a_{2}v_{2}+\cdot\cdot\cdot+a_{p}v_{p}$
+\end{center}
+cualquiera sea la elección de los escalares $a_{1},a_{2},...,a_{p}$. Y al conjunto
+\begin{center}
+$\mathcal{C}\ell=\lbrace v_{1},...,v_{p}\rbrace = \lbrace a_{1}v_{1},a_{2}v_{2},...,a_{p}v_{p}\mid a_{1},a_{2},...,a_{p}\in\mathbb{R}\rbrace$
+\end{center}
+se le denomina conjunto de combinaciones lineales de $v_{1},v_{2},...,v_{p}$.(p. 221)
+}
+\end{quote}
+Este concepto nos sirve además para comprender qué es una base. Se dice que:
+\begin{quote}
+\textit{Un conjunto de vectores $\lbrace v_{1},v_{2},..,v_{k}\rbrace$ de un espacio vectorial E, es una base de este espacio si y solo si todo vector $v \in E$ se puede expresar como combinación lineal \textbf{única} de los vectores $v_{1},v_{2},..,v_{k}$. (Arce et al., 2003, p. 226)
+}
+\end{quote}
+
+Finalmente, para comprender el concepto de bases ortonormales necesitamos aclarar una operación de vectores y una característica de los mismos. Estas son el producto punto y la norma. El producto punto se define como:
+\begin{quote}
+\textit{
+Sean $\vec{a}=(a_{1},a_{2},...,a_{n})^{t}$ y $\vec{b}=(b_{1},b_{2},...,b_{n})^{t}$. El producto escalar, o producto punto de $\vec{a}$ y $\vec{b}$ es un número real denotado y expresado en la siguiente forma:
+\begin{center}
+  $\vec{a}\cdot\vec{b}=a_{1}b_{1}+a_{2}b_{2}+\cdot\cdot\cdot+a_{n}b_{n}$ (Arce et al., 2003, p. 158)
+\end{center}
+}
+\end{quote}
+Es decir, si tenemos dos vectores podemos multiplicar las entradas de estos en orden y la suma de estos dará un número real, o complejo dependiendo del campo. Debemos anotar que esta es la notación ordinaria de vectores. En la notación Dirac si tenemos los vectores \textit{V} y \textit{W} el producto punto está denotado como $\langle V\vert W\rangle$. Dos vectores son \textit{ortogonales o perpendiculares} si y solo si $\langle V\vert W\rangle=0$.
+Por otro lado, la norma de un vector, también conocida como magnitud, de una forma generalizada se define por: "$\sqrt{\langle V\vert V\rangle}\equiv\vert V \vert$ (...). Un \textit{vector normal} tiene una norma igual a uno." (Shankar, 1994, p. 9)
+
+Ahora bien, aclarados esto términos simplemente podemos definir una \textit{base ortonormal} como: $"$Un conjunto de vectores base normales, los cuales son ortogonales dos a dos." (Shankar, 1994, p. 9).
+
+\section*{Mecánica Cuántica}
+En cuanto al concepto de Mecánica cuántica no discutiremos a profundidad los postulados que este propone, puesto que eso sería un enorme discusión por aparte. Sin embargo, vamos a mencionar el primer postulado en comparación al primer postulado de la mecánica clásica. El primer postulado de la mecánica clásica afirma que: $"$El estado de una partícula en algún momento dado está especificado por las variables \textit{x(t)} y \textit{p(t)}, i.e., como un punto en un espacio de dos dimensiones." (Shankar, 1994, p. 115). Mientras que el de la mecánica cuántica dice que: $"$El estado de una partícula está representado por el vector $\vert \psi(t)\rangle$ en un espacio Hilbert." (Shankar, 1994, p.115)
+
+Con este postulado, podríamos decir que tenemos la base para comprender el concepto de los qubits. Pero en general, qué es la mecánica cuántica. Nielsen y Chuang (2010) la definen como: "(...)un marco matemático o un conjunto de reglas para la construcción de teorías de la física." (p. 2). Nos parece contextualmente comprensible la analogía que plantean estos autores. En esta, comparan la relación que tiene la mecánica cuántica y las teorías que derivan de ella con un sistema operativo y sus aplicaciones de software (p. 2). Como vemos entre ambas relaciones hay una conexión de base, donde el primer concepto sirve de fundamento para que se creen lso elementos con los cuales se relacionan.
+
+Incluso yendo más allá de una simple definición y contexto histórico Nielsen y Chuang (2010) se atreven, luego de hacer una línea de tiempo en el desarrollo de la mecánica cuántica a proponerla como un reto para la computación. Ellos exponen los inicios de esta nueva forma de ver la física, que se remontan a las años 20 hasta los hallazgos más destacables que datan desde los años 70 hasta la actualidad. Luego, hace una reflexión acerca de que los intentos por desarrollar nuevos hallazgos científicados, aunque sea por mera corazonada, han dado nacimiento a importantes descubrimientos en la historia de la humanidad. Es aquí donde ellos recalcan que la computación e informática cuántica caben a la perfección en este esquema de resolver retos propuestos por nuevos esquemas de conocimiento. (pp. 2-3)
+ 
+\end{document}

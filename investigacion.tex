@@ -6,6 +6,7 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{makeidx}
+\usepackage{verbatim} 
 \author{Arias E., Sagasti A.}
 \date{\today}
 \title{Tesla cantaba Kumbaya alrededor de su bobina}
@@ -99,9 +100,127 @@ La electrónica integrada hará las técnicas electrónicas más accesibles al r
 Sin embargo, él propone en este artículo una cierta preocupación. Moore (1965) espera que para la siguiente década se duplique el número de componentes en un circuito integrado. Esta aproximación resulto ser casi apegada a la realidad del futuro tanto que se le dió el nombre de \textit{Ley de Moore}.
 
 Con esto ya expuesto podemos tener una aproximación del futuro en la construcción de computadores a nivel de hardware. El crecimiento acelerado de componentes va a llegar a un punto donde va a ser necesario buscar una solución. Es aquí donde Nielsen y Chuang (2010) proponen como solución buscar nuevos paradigmas computacionales, y uno de estos puede ser fruto de la teoría de la computación cuántica. Los autores hablan sobre computadoras que procesen información usando métodos de mecánica cuántica a velocidad increíblemente rápidas en comparación con los métodos actuales con mecánica clásica. (pp. 4-5) Por tanto, decidimos investigar acerca de estos métodos de computación mediante mecánica cuántica. Como primera instancia, expondremos las unidades básicas y características fundamentales de la computación cuántica.
+\clearpage
+\part{Computación Cuántica (considerar otro nombre menos extenso}
+\section*{Qubits}
 
+Los quantum bits, o qubits, son objetos matemáticos que tiene dos posibles estados,  $\vert 0\rangle$ y $\vert 1\rangle$. La diferencia entre un qubit y un bit normal es que un qubit puede tener estados adicionales formados por combinaciones lineales de sus estados originales. (Nielsen, 2010, p.13)
+
+Asumiendo que tenemos un espacio vectorial $\mathbb{C}$, podemos afirmar que los vectores $\vert 0\rangle$ y $\vert 1\rangle$ pertenecen a este espacio. En general, si queremos representar un qubit usamos la siguiente fórmula donde $\vert \psi \rangle$ es un vector que pertenece a $\mathbb{C}$:
+
+\begin{center}
+$\vert \psi \rangle = \alpha \vert 0\rangle + \beta \vert 1\rangle$
+\end{center}
+
+Los números $\alpha$ y $\beta$ son números complejos, aunque estos se pueden asumir como números reales. De otra manera, el estado de un qubit es un espacio vectorial complejo de dos dimensiones. Los estados $\vert 0\rangle$ y $\vert 1\rangle$ se conocen como ''estados base computacionales'' y forman una base ortonormal para este espacio vectorial. (Nielsen, 2010, p.13)
+
+Podemos examinar un bit clásico para ver el valor que éste tiene. Por ejemplo, las computadoras revisan valores de bits constantemente al extraer contenidos de memoria. Sin embargo, no podemos examinar un qubit para determinar el estado en el que está. La mecánica cuántica nos dice que tenemos acceso solamente a información restringida sobre el estado cuántico de un qubit. Cuando medimos un qubit podemos tener dos posibles resultados: 0 con probabilidad $\alpha^2$ o 1 con probabilidad de $\beta^2$. La suma de ambas probabilidades debe dar 1. Geométricamente, podemos interpretar esto como la condición en la cual el estado del qubit se normaliza a 1. En general, el estado de un qubit es un vector unitario en un espacio vectorial complejo de dos dimensiones.  (Nielsen, 2010, p.13)
+
+La habilidad de un qubit de estar en un estado superpuesto va en contra del entendimiento clásico del mundo que nos rodea. Un qubit puede existir en un continuo de estados entre $\vert 0\rangle$ y $\vert 1\rangle$ hasta que es observado. Cuando se observa un qubit, su medición es '0' o '1'. (Nielsen, 2010, p.14)
+
+Los qubits son reales, y varios sistemas físicos se pueden utilizar para hacer qubits. Por ejemplo, se pueden realizar con las dos distintas polarizaciones de un fotón, con el alineamiento del espín nuclear en un campo magnético uniforme, como dos estados de un electrón orbitando un átomo. (Nielsen, 2010, p.14) 
+
+La representación geométrica de un qubit se puede apreciar en la figura 1.1
+Me falta meter la foto hu3hu3hu3. Hay que ponerle el full file path o algo,  y prefiero hacerlo al final. 
+
+\begin{comment}
+This is my comment.
+Note that it can span multiple lines.
+This is very useful.
+
+\part{Computación Cuántica}
+\index{Computación Cuántica}
+Los cambios que le suceden a un estado cuántico se pueden describir usando la computación cuántica. De la misma manera que una computadora clásica está construida con base en circuitos lógicos, una computadora cuántica se basa en circuitos cuánticos con compuertas cuánticas elementales.
+ 
+\section*{Compuertas con un qubit}
+Consideremos la operación lógica NOT que modifica un bit clásico. Es una operación que no pierde información y es reversible con otro NOT. (Feynman, )
+Su tabla de verdad está descrita en el Cuadro 1.
+
+Cuadro 1: Tabla de verdad de NOT
+\begin{center}
+    \begin{tabular}{ | 1 | 1 | }
+    \hline
+    x & NOT x  \\ \hline
+    0 & 1\\ \hline
+    1 & 0 \\ \hline
+    \end{tabular}
+\end{center}
+
+Al usar qubits, tener un NOT que cambie de \vert 0\rangle a \vert 1\rangle y viceversa no establece qué sucede en los estados de superposición. 
+El NOT funciona de una manera lineal porque toma el estado 
+ \alpha \vert 0\rangle + \beta \vert 1\rangle
+ y lo modifica hasta que los papeles del \vert 0\rangle y \vert 1\rangle estén completamente intercambiados. 
+  \alpha \vert 1\rangle + \beta \vert 0\rangle. 
+Las compuertas cuánticas NOT se pueden describir en matrices de 2x2 (surge directamente de la linealidad). Supongamos que la X representa una compuerta NOT. 
+X \equiv \begin{bmatrix}
+		\ 0 & 1
+		\ 1 & 0
+	      \end{bmatrix}
+Si escribimos el estado cuántico \alpha \vert 0\rangle + \beta \vert 1\rangle en notación vectorial
+\begin{bmatrix}
+ \ \alpha
+ \ \beta
+ \end{bmatrix}
+la salida del NOT cuántico es 
+X \begin{bmatrix} 
+     \ \alpha
+     \ \beta
+ \end{bmatrix}
+ = \begin{bmatrix}
+ \ \beta
+ \ \alpha
+ \end{bmatrix}.
+ 
+La acción de un NOT es tomar el estado 0 y reemplazarlo por el estado correspondiente a la primera columna de la matriz X. De igual manera el estado 1 es reemplazado por el estado correspondiente a la segunda columna de la matriz X. 
+
+Hay dos otras compuertas de un qubit importantes. 
+La primera es la compuerta Z. 
+Z = \begin{bmatrix}
+ \ 1 & 0
+ \ 0 & -1
+ \end{bmatrix}.
+Esta compuerta deja el 0 sin modificar y cambia el signo de 1 a -1.
+
+La segunda es la compuerta Hadamard.
+H =  \frac{1}{\sqrt{2}}  \begin{bmatrix}
+             \ 1 & 1
+             \ 1 & 1
+           \end{bmatrix}.
+
+\section*{Compuertas con múltiples qubits}
+CONTROLLED NOT
+En un CONTROLLED NOT entran dos datos, \textit{a} y \textit{b}, y salen dos datos \textit{a'} y \textit{b'}. \textit{a} es la línea de control: si se activa y \textit{a}=1, entonces \textit{b'} es la negación de \textit{b}. Si \textit{a}=0, entonces \textit{b}=\textit{b'}. La acción de un CONTROLLED NOT es revertida al aplicar un CNOT de nuevo. 
+La salida \textit{b'} es en realidad una función simétrica de \textit{a} y \textit{b} conocida como XOR. Es a la vez la suma módulo dos de \textit{a} y \textit{b}. Se puede utilizar para comparar los valores de \textit{a} y \textit{b} y dar como resultado 1 cuando son diferentes. (Feynman, 1985, p.12)
+
+CONTROLLED CONTROLLED NOT
+En este caso hay dos líneas de control a y b que modifican a la tercera línea c y le aplican un NOT sólo cuando ambas líneas de control están activadas (a=1 y b=1). Si no, la salida c' se mantiene inmutada. (Feynman, 1985, p.12)
+
+El CNOT y las compuertas de un qubit son los prototipos necesarios para hacer cualquier otro tipo de compuerta (son el NAND de los bits clásicos). (Nielsen, 2010, p.22)
+
+\section*{Circuitos cuánticos}
+¿Podemos simular circuitos con compuertas clásicas usando circuitos cuánticos? La respuesta es sí. Sin embargo, la mayoría de las compuertas cuánticas son reversibles, mientras las compuertas clásicas son irreversibles. (Nielsen, 2010, p.29)
+Cualquier circuito clásico puede ser reemplazado por uno equivalente construido únicamente con elementos reversibles, utilizando la \textit{compuerta Toffoli}. La compuerta Toffoli tiene tres bits de entrada y tres de salida. Dos de esos bits son de control y no los afecta la acción de la compuerta en sí. El tercero es un bit que es "flippeado" , si las dos líneas de control están activadas. Aplicar dos veces la compuerta Toffoli a un bit hace que se revierta al estado original porque su inversa es sí misma. (Nielsen, 2010, p.29)
+La compuerta Toffoli se puede utilizar para simular compuertas NAND. (Nielsen, 2010, p.29)
+\end{comment}
+
+\section*{Superposición y Entrelazamiento cuántico}
+El entrelazamiento cuántico es uno de los fenómenos más extraños y sorprendentes de la mecánica cuántica. No es un concepto nuevo, la propuesta del entrelazamiento se remonta hacia los años 30 donde la teoría cuántica comenzaba por desarrollarse. Como es natural esta teoría tenía quiénes la refutaran, entre ellos Einstein.
+
+Pero dejemos un momento a Einstein y definamos básicamente el concepto de entrelazamiento. Para hacerlo de una forma comprendible vamos a referirnos a la analogía propuesta por Aczel (año). Esta nos propone que imaginemos que Alice y Bob están casados. Cuando Alice se va de viaje Bob conoce a Carol. Carol está casada con Dave, quién también está fuera de la ciudad. Entonces Bob y Carol se olvidan de sus esposos y se entrelazan profundamente. Por una extraña razón Alice y Dave se encuentran y ellos también se entrelazan sin siquiera saber por qué. Entonces si cambiamos las personas por partículas: A, B, C, D y si sabemos que A y B están entrelazadas al igual que C con D  entonces podemos entrelazar A con D por medio de entrelazar a B con C. (p. 2)
+
+Entonces, si dos partículas están entrelazas, no importa cuán lejos estén siempre van a estar unidas. Hay una relación intrínseca entre las dos que no las deja separarse. Evidentemente esto suena absurdo bajo nuestra física clásica. Es aquí donde Albert Einstein, Boris Podolski y Nathan Rosen proponen en 1935 una paradoja (llamada paradoja EPR) que viene a criticar a la mecánica cuántica. 
+
+Esta paradoja, a grandes rasgos, supone dos partículas P y Q que están entrelazadas. Además propone que si dos individuos observan esa partícula van a tener dos medidas distintas, esto por la naturaleza de una partícula cuántica. Por tanto, concluyen que esta medición no describe la realidad física de la partícula y por consiguiente la teoría cuántica es una teoría incompleta. A(Abala, 2007, pp. 7-11)
+
+Luego de esto, en 1964 John Bell desarrolla una forma con la cual comprobar la paradoja anteriormente descrita. Bell se basa en los principios del determinismo y la localidad para crear unas desigualdades. Si estan son validadas entonces la paradoja se cumple. Gracias a este trabajo varios grupos de investigadores continuaron el análisis del entrelazamiento y en 1972 dos físicos americanos dieron pruebas de la existencia del entrelazamiento. (Aczel, 2001, p. xvi)
+
+
+
+\clearpage
 \begin{thebibliography}{X}
 \bibitem{etiqueta} \textsc{Autor, A.} (año). \textit{Título del libro.} Lugar: Editorial
+\bibitem{abal} \textsc{Abal, G.} (2007). \textit{Paradoja EPR y desigualdades de Bell: pruebas experimentales, estado acual del conocimiento.} Montevideo.Recuperado de http://www.fing.edu.uy/~abal/trabajos/tdet.pdf
+\bibitem{aczel} \textsc{Aczel, A.} (año). \textit{ENTANGLEMENT The Greatest Mystery in Physics.} (E. Arias, Trad.) New York: Four Wall Eight Windows
 \bibitem{arce} \textsc{Arce, C., Castillo, W., González, J.} (2003). \textit{Álgebra Lineal.} Lugar: Editorial
 \bibitem{herken} \textsc{Herken, R. (Ed.)} (1988). \textit{The Universal Turing Machine. A Half-Century Survey.} (E. Arias, Trad.) Oxford University Press
 \bibitem{moore} \textsc{Moore, G.} (1965). Cramming more components onto integrated circuits. \textit{Electronics.} Vol 3., No. 8.

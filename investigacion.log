@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.7)  25 JUN 2014 20:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.7)  26 JUN 2014 21:19
 entering extended mode
 **investigacion.tex
 (C:\Users\emman_000\Investigacion\investigacion.tex
@@ -454,51 +454,51 @@ s de $\OML/cmm/m/it/10.95 v[]; v[]; :::; v[]$\OT1/cmr/m/it/10.95 .(p.
 
 [2] [3] [4] [5] [6
 
-] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+] [7] [8] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
 []\OT1/cmr/m/sc/10.95 Turing, A. \OT1/cmr/m/n/10.95 (1936). \OT1/cmr/m/it/10.95
  ON COMPU-TABLE NUM-BERS,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
 \OT1/cmr/m/it/10.95 WITH AN AP-PLI-CA-TION TO THE EN-TS-CHEI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--231
+Underfull \hbox (badness 10000) in paragraph at lines 231--233
 \OT1/cmr/m/it/10.95 DUNGS-PRO-BLEM. \OT1/cmr/m/n/10.95 (E. Arias, Trad.) Re-cu-
 pe-ra-do de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 []\OT1/cmr/m/sc/10.95 Von Neu-mann, J. \OT1/cmr/m/n/10.95 (1945). \OT1/cmr/m/it
 /10.95 First Draft of a Re-port on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 \OT1/cmr/m/it/10.95 the ED-VAC \OT1/cmr/m/n/10.95 Uni-ver-sity of Pennsyl-va-ni
 a. Re-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 \OT1/cmr/m/n/10.95 http://www.virtualtravelog.net/wp/wp-content/media/2003-08-
  []
 
-[8
+[11
 
 ] (C:\Users\emman_000\Investigacion\investigacion.aux) ) 
 Here is how much of TeX's memory you used:
- 2902 strings out of 493921
- 35571 string characters out of 3144865
- 96412 words of memory out of 3000000
- 6168 multiletter control sequences out of 15000+200000
+ 2904 strings out of 493921
+ 35601 string characters out of 3144865
+ 97412 words of memory out of 3000000
+ 6170 multiletter control sequences out of 15000+200000
  12050 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,6n,27p,980b,211s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,7n,27p,1084b,211s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files (x86)/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/Program Files (x86)/M
@@ -511,11 +511,12 @@ onts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmr17.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmti10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/symbols/msbm10.pfb>
-Output written on investigacion.pdf (9 pages, 176750 bytes).
+ublic/amsfonts/cm/cmsy8.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/symbols/msbm10.pfb>
+Output written on investigacion.pdf (12 pages, 195872 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

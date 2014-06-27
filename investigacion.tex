@@ -123,8 +123,6 @@ Los qubits son reales, y varios sistemas físicos se pueden utilizar para hacer 
 La representación geométrica de un qubit se puede apreciar en la figura 1.1
 Me falta meter la foto hu3hu3hu3. Hay que ponerle el full file path o algo,  y prefiero hacerlo al final. 
 
-\part{Computación Cuántica}
-\index{Computación Cuántica}
 Los cambios que le suceden a un estado cuántico se pueden describir usando la computación cuántica. De la misma manera que una computadora clásica está construida con base en circuitos lógicos, una computadora cuántica se basa en circuitos cuánticos con compuertas cuánticas elementales.
  
 \section*{Compuertas con un qubit}
@@ -200,31 +198,40 @@ Cualquier circuito clásico puede ser reemplazado por uno equivalente construido
 La compuerta Toffoli se puede utilizar para simular compuertas NAND. (Nielsen, 2010, p.29)
 
 \section*{Superposición y Entrelazamiento cuántico}
-El entrelazamiento cuántico es uno de los fenómenos más extraños y sorprendentes de la mecánica cuántica. No es un concepto nuevo, la propuesta del entrelazamiento se remonta hacia los años 30 donde la teoría cuántica comenzaba por desarrollarse. Como es natural esta teoría tenía quiénes la refutaran, entre ellos Einstein.
+El entrelazamiento cuántico es uno de los fenómenos más extraños y sorprendentes de la mecánica cuántica. No es un concepto nuevo, la propuesta del entrelazamiento se remonta hacia los años 30 donde la teoría cuántica comenzaba a desarrollarse. 
 
-Pero dejemos un momento a Einstein y definamos básicamente el concepto de entrelazamiento. Para hacerlo de una forma comprendible vamos a referirnos a la analogía propuesta por Aczel (2001). Esta nos propone que imaginemos que Alice y Bob están casados. Cuando Alice se va de viaje Bob conoce a Carol. Carol está casada con Dave, quién también está fuera de la ciudad. Entonces Bob y Carol se olvidan de sus esposos y se entrelazan profundamente. Por una extraña razón Alice y Dave se encuentran y ellos también se entrelazan sin siquiera saber por qué. Entonces si cambiamos las personas por partículas: A, B, C, D y si sabemos que A y B están entrelazadas al igual que C con D  entonces podemos entrelazar A con D por medio de entrelazar a B con C. (p. 2)
+Para hacerlo de una forma comprendible vamos a referirnos a la analogía propuesta por Aczel (2001). Esta nos propone que imaginemos que Alice y Bob están casados. Cuando Alice se va de viaje Bob conoce a Carol. Carol está casada con Dave, quién también está fuera de la ciudad. Entonces Bob y Carol se olvidan de sus esposos y se entrelazan profundamente. Por una extraña razón Alice y Dave se encuentran y ellos también se entrelazan sin siquiera saber por qué. Entonces si cambiamos las personas por partículas: A, B, C, D y si sabemos que A está entrelazada con B al igual que C con D  entonces podemos entrelazar A con D por medio de entrelazar a B con C. (p. 2)
 
-Entonces, si dos partículas están entrelazas, no importa cuán lejos estén siempre van a estar unidas. Hay una relación intrínseca entre las dos que no las deja separarse. Evidentemente esto suena absurdo bajo nuestra física clásica. Es en este contexto donde Albert Einstein, Boris Podolski y Nathan Rosen proponen en 1935 una paradoja (llamada paradoja EPR) que viene a criticar a la mecánica cuántica. 
-
-Esta paradoja, a grandes rasgos, supone dos partículas P y Q que están entrelazadas. Además propone que si dos individuos observan esa partícula van a tener dos medidas distintas, esto por la naturaleza de una partícula cuántica. Por tanto, concluyen que esta medición no describe la realidad física de la partícula y por consiguiente la teoría cuántica es una teoría incompleta. A(Abala, 2007, pp. 7-11)
-
-Luego de esto, en 1964 John Bell desarrolla una forma con la cual comprobar la paradoja anteriormente descrita. Bell se basa en los principios del determinismo y la localidad para crear unas desigualdades. Si estan son validadas entonces la paradoja se cumple. Gracias a este trabajo varios grupos de investigadores continuaron el análisis del entrelazamiento y en 1972 dos físicos americanos dieron pruebas de la existencia del entrelazamiento. (Aczel, 2001, p. xvi)
-
-Entonces, el entrelazamiento viene a ser una aplicación de un concepto desarrollado en el pasado llamado el \textit{principio de superposición de estados}. Aczel (2001) lo presenta como:
+Por tanto, si dos partículas están entrelazas, no importa cuán lejos estén siempre van a estar unidas. Hay una relación intrínseca entre las dos que no las deja separarse. El entrelazamiento viene a ser entonces una aplicación de un concepto desarrollado en el pasado llamado el \textit{principio de superposición de estados}. Aczel (2001) lo presenta como:
 \begin{quote}
 El principio de superposición dice que un nuevo estado de un sistema puede estar compuesto por dos o más estados, de manera tal que el nuevo estado comparta algunas de las propiedades de los estados combinados. Si A y B atribuyen dos propiedades diferentes a una partícula, como la de estar en dos distintos lados, entonces la \textit{superposición} de estados, escrita como $A + B$, tiene algo en común con el estado A y el estado B. En particular, la partícula tendrá probabilidades distintas de cero de estar en cada uno de los dos estados, pero no en otra parte, si la posición de la partícula es observada. (p. 25)
-
+\end{quote}
 El entrelazamiento consiste en un sistema formado por dos o más subsistemas. En este caso el subsistema corresponde a una partícula. Veamos entonces qué significa decir que dos partículas están entrelazadas. Supongamos una partícula 1. Esta puede estar en dos estados: A y C. Estos estados manifiestan dos propiedades contradictorias como lo es el estar en dos lugares a la vez. Por otro lado, la partícula 2 puede estar en dos estados: B y D. De igual forma estos dos estados presentar la propiedad contradictoria de estar en dos lugares distintos. El estado AB es un producto de estados. Cuando el sistema completo esta en AB sabemos que la partícula 1 esta en A y la partícula 2 está en B. Analógicamente, con el estado CD. Observemos entonces el estado $AB + CD$. Este estado representa la aplicación del principio de superposición en todo el sistema de dos partículas. Como el principio permite este comportamiento de combinación de estados, el estado $AB + CD$ es llamado un \textit{estado entrelazado}. (Aczel, 2001, p. 26)
+
+\section*{Teletrasportación cuántica}
+A veces, la ciencia ficción deja de ser ficción para convertirse en tecnología del presente. Muchos recordarán la serie \textit{Star Trek} y como el Capitán Kirk era teletransportado a la nave \textit{Enterprise} com su famosa frase: \textit{''Beam me up Scotty''}. Este tipo de ideas, que un principio existen solo en la ficción pasan a ser investigadas en tangenciales campos científicos. En el apartado anterior desarrollamos el concepto de entrelazamiento cuántico por un motivo. Gracias a esta propiedad de las partículas cuánticas se ha logrado la \textit{teletransportación cuántica}. 
+
+Los inicios de la teletransportación se remontan a los años 80's cuando William Wootters y W. Zurek presentan el \textit{Teorema del no clonado}, el cual muestra que una partícula cuántica no puede ser clonada. El teorema dice que, si tenemos una partícula, es imposible copiar su estado en otra, mientras la partícula original permanezca igual.  Por tanto, no se puede tener una especie de dispositivo que copie las propiedades de una partícula en otra. La solución dada a este problema por los físicos fue la de imprimir el estado de una partícula en otro y hacerla desaparecer en la original. Este proceso es el que se conoce como \textit{teletransportación}  (Aczel, 2001, p. 242)
+
+En 1997, un grupo de físicos lograron con éxito un experimento donde pudieron teletransportar cuánticamente una partícula. Su experimento fue publicado en un artículo de la prestigiosa revista \textit{Nature}. Este dice:
+\begin{quote}
+El sueño de la teletransportación es el de ser capaz de viajar simplemente reapareciendo en un lugar distante. Un objeto que se ha teletransportado puede ser totalmente caracterizado por sus propiedades, que en la física clásica se pueden determinar mediante la medición. (Bouwmeester et al., 1997)
 \end{quote}
 
+El problema de la teletransportación de una partícula cuántico bajo este esquema clásico es que no puede ser medida con precisión. Esté es el principio de incertidumbre de Heisenberg. Si una partícula es medida u observada en el momento de teletransportarse, se destruirían todos sus otros estados y la precisión de la medición es improbable. Entonces, el artículo destaca que Bennett et al. propone la posibilidad de transferir un estado cuántico de una partícula en otra sin tener que obtener información en el proceso. Proponen que esto es posible gracias al entrelazamiento. (Bouwmeester et al., 1997)
+
+Explicar el proceso por el cual se logra transferir el estado de una partícula a otro a es algo complicado. Decidimos entonces exponer una aplicación de directa de la computación cuántica en la computación e informática. Si pudieramos tranferir el estado de un qubit a otro podríamos tener un nuevo sistema de envío de datos. En el periódico \textit{The New York Times} encontramos una noticia sobre un grupo de científicos de los Países Bajos lograron teletransportar la información de un qubit a otro estando a tres metros de distancia. Este logro los motiva a continuar sus esfuerzo por lograr una teletransportación a distancias más largas. Si lo logran, este será un paso muy grande para la demostración del fenómeno del entrelazamiento y la mecánica cuántica en general. (Markoff, 2014)
 
 \clearpage
 \begin{thebibliography}{X}
 \bibitem{etiqueta} \textsc{Autor, A.} (año). \textit{Título del libro.} Lugar: Editorial
-\bibitem{abal} \textsc{Abal, G.} (2007). \textit{Paradoja EPR y desigualdades de Bell: pruebas experimentales, estado acual del conocimiento.} Montevideo.Recuperado de http://www.fing.edu.uy/~abal/trabajos/tdet.pdf
+\bibitem{revistaonline} \textsc{Autor, A.} (año). Título del artículo. \textit{Revista}, n, pp. doi: (o recuperado de)
+\bibitem{periodico} \textsc{Autor, A.} (año). Título de la notica. \textit{Periodico} Recuperado de
 \bibitem{aczel} \textsc{Aczel, A.} (año). \textit{ENTANGLEMENT The Greatest Mystery in Physics.} (E. Arias, Trad.) New York: Four Wall Eight Windows
 \bibitem{arce} \textsc{Arce, C., Castillo, W., González, J.} (2003). \textit{Álgebra Lineal.} Lugar: Editorial
+\bibitem{bouwmeester} \textsc{Bouwmeester, D., Pan J., Mattle K., Eibl M., Weinfurter H., Zeilinger A.} (1997). Experimental quantum teleportation. \textit{Nature}, 390, 575-579. doi:10.1038/37539
 \bibitem{herken} \textsc{Herken, R. (Ed.)} (1988). \textit{The Universal Turing Machine. A Half-Century Survey.} (E. Arias, Trad.) Oxford University Press
+\bibitem{markoff} \textsc{Markoff, J.} (2014). Scientists Report Finding Reliable Way to Teleport Data. \textit{The New York Times} Recuperado de http://www.nytimes.com/2014/05/30/science/scientists-report-finding-reliable-way-to-teleport-data.html
 \bibitem{moore} \textsc{Moore, G.} (1965). Cramming more components onto integrated circuits. \textit{Electronics.} Vol 3., No. 8.
 \bibitem{nielsen} \textsc{Nielsen, M., Chuang, I.} (2010). \textit{Quantum Computation and Quantum Information.} (E. Arias, Trad.) New York: Cambridge University Press
 \bibitem{shankar} \textsc{Shankar, R.} (1994). \textit{Principles of Quantum Mechanics.} (E. Arias, Trad.) New York: Plenum Press

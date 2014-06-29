@@ -1,4 +1,5 @@
 \documentclass[11pt,a4paper]{article}
+\usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -20,7 +21,7 @@
 \textsc{\large CI-1210 Diseño de Circuitos Digitales}\\[0.5cm] 
 
 \HRule \\[0.4cm]
-{ \huge \bfseries Tesla cantaba Kumbaya alrededor de su bobina}\\[0.4cm] % Title of your document
+{ \huge \bfseries Una aproximación a la computación cuántica y el D-Wave como desarrollo de nuevos paradigmas computacionales}\\[0.4cm] % Title of your document
 \HRule \\[1.5cm]
 
 \begin{minipage}{0.4\textwidth}
@@ -44,13 +45,26 @@ Sanders \textsc{Pacheco A.} % Supervisor's Name
 
 \end{titlepage}
 
-\tableofcontents 
-\clearpage
+%\tableofcontents 
+%\clearpage
 
+
+\part*{Introducción}
+
+‘‘Computación cuántica’’ es un término popular en las noticias de avances tecnológicos hoy en día. Es una área de investigación que finalmente se puede realizar físicamente, después de años de desarrollarse teóricamente. Algunos creen que puede ser un gran avance y solucionar problemas complejos de gran magnitud, mientras otros creen que no hay diferencia alguna entre la computación clásica y la cuántica. 
+
+Decidimos plantear nuestra investigación en tres áreas que se correlacionan. Exponemos cada una de ellas en tres partes distintas. La primera parte introduce los fundamentos, la segunda construye sobre las ideas del primer capítulo y la tercera expone un caso real de las computadoras cuánticas. 
+
+En la parte I repasamos conceptos matemáticos para comprender las bases de la mecánica cuántica. No esperamos que el lector tenga conocimientos generales en álgebra lineal, aunque sería lo ideal. Por lo tanto este apartado introduce a grandes rasgos las bases algebraicas de las espacios vectoriales. Además, hacemos una pequeña introducción a la mecánica cuántica pero más que eso damos una visión específica de esta frente a la computación. Brevemente damos una perspectiva general histórica en los fundamentos más importantes de la computación contemporánea y planteamos cómo la mecánica cuántica puede ofrecer una respuestas a los problemas que se le han planteado a la computación clásica. 
+
+En la parte II establecemos algunas diferencias entre la computación clásica y la computación cuántica, empezando por su unidad más básica: qubits. Luego ampliamos las diferencias a compuertas clásicas y su equivalente cuántico. Establecemos la importancia de dos efectos cuánticos: la superposición y el entrelazamiento y cómo estos afectan los qubits. Por último mencionamos la teletransportación cuántica y cómo puede ser una base para nuevos tipos de transferencia de datos.
+
+En la última parte, pero no por eso menos importante exponemos una aplicación tangente de la computación cuántica. La compañía D-Wave Systems clama haber construido la primera computadora cuántica comercial de mundo. Nos parece interesante investigar sobre el nacimiento de esta y el desarrollo que han hecho en la computación cuántica. Luego nos enfocamos en la arquitectura de hardware que poseen sus computadoras, sus componentes básicos y el funcionamiento de estas. Finalmente, exponemos las posibles aplicaciones que podría tener la computación cuántica desde la visión de D-Wave Systems y además mencionamos algunos de los usuarios de las máquinas D-Wave
 
 \part{Conceptos Fundamentales}
 \index{Conceptos Fundamentales}
- En este capítulo vamos a desarrollar las bases necesarias para poder llegar a un pleno entendimiento de la investigación. Es una especie de marco teórico donde se abarcará la terminología básica de ciertos conceptos matemáticos y computacionales tratados en los siguientes capítulos. No debe entenderse como un glosario o un capítulo de definiciones sino que, este es el comienzo de la investigación en su etapa más básica.
+
+En este capítulo vamos a desarrollar las bases necesarias para poder llegar a un pleno entendimiento de la investigación. Es una especie de marco teórico donde se abarcará la terminología básica de ciertos conceptos matemáticos y computacionales tratados en los siguientes capítulos. No debe entenderse como un glosario o un capítulo de definiciones sino que, este es el comienzo de la investigación en su etapa más básica.
 
 \section*{Conceptos matemáticos}
  Para poder comprender mejor los postulados de la Teoría Cuántica es necesario tener un conocimiento básico de álgebra lineal, específicamente sobre espacios vectoriales. Asumimos que el lector posee conocimientos sobre este tema, sin embargo vamos a hacer un pequeño repaso en conceptos fundamentales. 
@@ -113,6 +127,7 @@ Por otro lado, la norma de un vector, también conocida como magnitud, de una fo
 Ahora bien, aclarados esto términos podemos definir una \textit{base ortonormal} como: $"$Un conjunto de vectores base normales, los cuales son ortogonales dos a dos." (Shankar, 1994, p. 9).
 
 \section*{Introducción a la Mecánica Cuántica}
+
 En cuanto al concepto de mecánica cuántica no discutiremos a profundidad los postulados que este propone, puesto que eso sería un enorme discusión. Sin embargo, vamos a comparar el primer postulado de la mecánica cuántica con el primer postulado de la mecánica clásica. El primero afirma que: ''El estado de una partícula en algún momento dado está especificado por las variables \textit{x(t)} y \textit{p(t)}, i.e., como un punto en un espacio de dos dimensiones.'' (Shankar, 1994, p. 115). Mientras que el segundo dice que: ''El estado de una partícula está representado por el vector $\vert \psi(t)\rangle$ en un espacio Hilbert.'' (Shankar, 1994, p.115)
 
 Con este postulado, podríamos decir que tenemos la base para comprender el concepto de los qubits. Pero en general, ¿qué es la mecánica cuántica? Nielsen y Chuang (2010) la definen como: ''(...)un marco matemático o un conjunto de reglas para la construcción de teorías de la física.'' (p. 2). Nos parece contextualmente comprensible la analogía que plantean estos autores. En esta, comparan la relación que tiene la mecánica cuántica y las teorías que derivan de ella con un sistema operativo y sus aplicaciones de software (p. 2). Como vemos entre ambas relaciones hay una conexión de base, donde el primer concepto sirve de fundamento para que se creen los elementos con los cuales se relacionan.
@@ -165,7 +180,8 @@ La representación geométrica de un qubit se puede apreciar en la Figura 1.
 Los cambios que le suceden a un estado cuántico se pueden describir usando la computación cuántica. De la misma manera que una computadora clásica está construida con base en circuitos lógicos, una computadora cuántica se basa en circuitos cuánticos con compuertas cuánticas elementales.
  
 \section*{Compuertas con un qubit}
- Consideremos la operación lógica NOT que modifica un bit clásico. Es una operación que no pierde información y es reversible con otro NOT. (Feynman, 1985, p.12)
+
+Consideremos la operación lógica NOT que modifica un bit clásico. Es una operación que no pierde información y es reversible con otro NOT. (Feynman, 1985, p.12)
 Su tabla de verdad está descrita en el Cuadro 1.
 
 Cuadro 1: Tabla de verdad de NOT
@@ -223,20 +239,24 @@ $H =  \frac{1}{\sqrt{2}}  \begin{bmatrix}
 
 \section*{Compuertas con múltiples qubits}
 \subsection*{CONTROLLED NOT}
- En un CONTROLLED NOT entran dos datos, \textit{a} y \textit{b}, y salen dos datos \textit{a'} y \textit{b'}. \textit{a} es la línea de control: si se activa y \textit{a}=1, entonces \textit{b'} es la negación de \textit{b}. Si \textit{a}=0, entonces \textit{b}=\textit{b'}. La acción de un CONTROLLED NOT es revertida al aplicar un CNOT de nuevo. 
+
+En un CONTROLLED NOT entran dos datos, \textit{a} y \textit{b}, y salen dos datos \textit{a'} y \textit{b'}. \textit{a} es la línea de control: si se activa y \textit{a}=1, entonces \textit{b'} es la negación de \textit{b}. Si \textit{a}=0, entonces \textit{b}=\textit{b'}. La acción de un CONTROLLED NOT es revertida al aplicar un CNOT de nuevo. 
 La salida \textit{b'} es en realidad una función simétrica de \textit{a} y \textit{b} conocida como XOR. Es a la vez la suma módulo dos de \textit{a} y \textit{b}. Se puede utilizar para comparar los valores de \textit{a} y \textit{b} y dar como resultado 1 cuando son diferentes. (Feynman, 1985, p.12)
 
 \subsection*{CONTROLLED CONTROLLED NOT}
+
 En este caso hay dos líneas de control a y b que modifican a la tercera línea c y le aplican un NOT sólo cuando ambas líneas de control están activadas (a=1 y b=1). Si no, la salida c' se mantiene inmutada. (Feynman, 1985, p.12)
 
 El CNOT y las compuertas de un qubit son los prototipos necesarios para hacer cualquier otro tipo de compuerta (son el NAND de los bits clásicos). (Nielsen, 2010, p.22)
 
 \section*{Circuitos cuánticos}
- ¿Podemos simular circuitos con compuertas clásicas usando circuitos cuánticos? La respuesta es sí. Sin embargo, la mayoría de las compuertas cuánticas son reversibles, mientras las compuertas clásicas son irreversibles. (Nielsen, 2010, p.29)
+
+¿Podemos simular circuitos con compuertas clásicas usando circuitos cuánticos? La respuesta es sí. Sin embargo, la mayoría de las compuertas cuánticas son reversibles, mientras las compuertas clásicas son irreversibles. (Nielsen, 2010, p.29)
 Cualquier circuito clásico puede ser reemplazado por uno equivalente construido únicamente con elementos reversibles, utilizando la \textit{compuerta Toffoli}. La compuerta Toffoli tiene tres bits de entrada y tres de salida. Dos de esos bits son de control y no los afecta la acción de la compuerta en sí. El tercero es un bit que es "flippeado" , si las dos líneas de control están activadas. Aplicar dos veces la compuerta Toffoli a un bit hace que se revierta al estado original porque su inversa es sí misma. (Nielsen, 2010, p.29)
 La compuerta Toffoli se puede utilizar para simular compuertas NAND. (Nielsen, 2010, p.29)
 
 \section*{Superposición y Entrelazamiento cuántico}
+
 El entrelazamiento cuántico es uno de los fenómenos más extraños y sorprendentes de la mecánica cuántica. No es un concepto nuevo, la propuesta del entrelazamiento se remonta hacia los años 30 donde la teoría cuántica comenzaba a desarrollarse. 
 
 Para hacerlo de una forma comprendible vamos a referirnos a la analogía propuesta por Aczel (2001). Esta nos propone que imaginemos que Alice y Bob están casados. Cuando Alice se va de viaje Bob conoce a Carol. Carol está casada con Dave, quién también está fuera de la ciudad. Entonces Bob y Carol se olvidan de sus esposos y se entrelazan profundamente. Por una extraña razón Alice y Dave se encuentran y ellos también se entrelazan sin siquiera saber por qué. Entonces si cambiamos las personas por partículas: A, B, C, D y si sabemos que A está entrelazada con B al igual que C con D  entonces podemos entrelazar A con D por medio de entrelazar a B con C. (p. 2)
@@ -248,6 +268,7 @@ El principio de superposición dice que un nuevo estado de un sistema puede esta
 El entrelazamiento consiste en un sistema formado por dos o más subsistemas. En este caso el subsistema corresponde a una partícula. Veamos entonces qué significa decir que dos partículas están entrelazadas. Supongamos una partícula 1. Esta puede estar en dos estados: A y C. Estos estados manifiestan dos propiedades contradictorias como lo es el estar en dos lugares a la vez. Por otro lado, la partícula 2 puede estar en dos estados: B y D. De igual forma estos dos estados presentar la propiedad contradictoria de estar en dos lugares distintos. El estado AB es un producto de estados. Cuando el sistema completo esta en AB sabemos que la partícula 1 esta en A y la partícula 2 está en B. Analógicamente, con el estado CD. Observemos entonces el estado $AB + CD$. Este estado representa la aplicación del principio de superposición en todo el sistema de dos partículas. Como el principio permite este comportamiento de combinación de estados, el estado $AB + CD$ es llamado un \textit{estado entrelazado}. (Aczel, 2001, p. 26)
 
 \section*{Teletrasportación cuántica}
+
 A veces, la ciencia ficción deja de ser ficción para convertirse en tecnología del presente. Muchos recordarán la serie \textit{Star Trek} y como el Capitán Kirk era teletransportado a la nave \textit{Enterprise} com su famosa frase: \textit{''Beam me up Scotty''}. Este tipo de ideas, que un principio existen solo en la ficción pasan a ser investigadas en tangenciales campos científicos. En el apartado anterior desarrollamos el concepto de entrelazamiento cuántico por un motivo. Gracias a esta propiedad de las partículas cuánticas se ha logrado la \textit{teletransportación cuántica}. 
 
 Los inicios de la teletransportación se remontan a los años 80 cuando William Wootters y W. Zurek presentan el \textit{Teorema del no clonado}, el cual muestra que una partícula cuántica no puede ser clonada. El teorema dice que, si tenemos una partícula, es imposible copiar su estado en otra, mientras la partícula original permanezca igual.  Por tanto, no se puede tener una especie de dispositivo que copie las propiedades de una partícula en otra. La solución dada a este problema por los físicos fue la de imprimir el estado de una partícula en otro y hacerla desaparecer en la original. Este proceso es el que se conoce como \textit{teletransportación}  (Aczel, 2001, p. 242)
@@ -263,6 +284,7 @@ Explicar el proceso por el cual se logra transferir el estado de una partícula 
 \clearpage
 \part{D-Wave Systems}
 \section*{Historia y objetivos de D-Wave Systems}
+
 D-Wave Systems es la primera companía privada comercial que ofrece computación cuántica. Se basa en los principios de que la computación cuántica tiene el potencial de resolver algunos de los problemas más complejos alrededor del mundo. Esperan que la computación cuántica pueda llevar a nuevos descubrimientos en ciencia, ingeniería, modelos en computación, simulación, análisis financiero, optimización, lógica...
 
 Fue fundada en 1999 por Geordie Rose, Haig Farris y Alexandre Zagoskin, que se encontraron en la Universidad de British Columbia (UBC). El nombre D-Wave viene de los primeros diseños de qubits que plantearon, que usaban superconductores de tipo d-wave. Empezó como una rama de UBC con lazos muy fuertes con el Departamento de Física y Astronomía, ya que ellos proporcionaban los fondos para investigación en la computación cuántica. El objetivo de D-Wave es integrar nuevos descubrimietos en física y computación para producir nuevos avances en la computación cuántica.
@@ -286,6 +308,7 @@ Siguiendo este ejemplo, si un usuario quisiera resolver este problema, primero e
 La computadora D-Wave es capaz de resolver problemas como por ejemplo: optimización, análisis financiero, aprendizaje de máquina, reconocimiento de patrones, detección de anomalías, verificación de software y hardware, entre otras. (D-Wave Systems, 2014) Vemos que las aplicaciones son muy enriquecedoras en ciertos campos, tanto como científicos, comerciales y militares, por lo que dedicaremos un apartado más adelante a estas posibles aplicaciones.
 
 \subsection*{Hardware del D-Wave}
+
 Para hablar un poco sobre la mecánica del hardware del D-Wave vamos a referirnos a tres entornos: adentro del procesador, afuera del procesor y la máquina en general.
 
 En cuanto al procesador hay una singularidad importante. En una computadora clásica, la forma en la que se almacenan los bits es mediante transistores. Estos están conectados a un bus de datos y la forma en que se escriben los datos es regulando el voltaje en los transistores. En cambio, el D-Wave necesita un medio para almacenar qubits, y un transistor no se puede utilizar. Entonces, el procesador esta conformado por una unidad básica llamada SQUID. En esta estructura los electrones pueden comportarse en forma de onda, las cuales dan las propiedades y efectos cuánticos. En contraste con un transistor que está hecho de silicio, este dispositivo está hecho de niobio. Cuando este metal se enfría se transforma en un superconductor, permitiéndo que fluya en el propiedades cuánticas.(D-Wave Systems, 2014)
@@ -335,6 +358,7 @@ El método de conexión al D-Wave se basa en computación en nube. El D-Wave tie
 
 \clearpage
 \subsection*{Aplicaciones y usuarios del D-Wave}
+
 Como ya lo habíamos mencionado, el D-Wave se centra en problemas de optimización. Pero en general D-Wave Systems nos da varios ejemplos de este tipo de problemas. Por ejemplo, se podría optimizar redes de tuberías de agua. Con un software se modelan las especificaciones y la computadora se encargaría de ofrecer la mejor solución. Otro problema es el de optimizar las dosis de radioterapia en un paciente. Como esto lleva muchas variables a considerar para que el tratamiento tenga el menor impacto en el cuerpo, la capaciadad de procesamiento de la computación cuántica podría ser un gran avance.(D-Wave Systems, 2014)
 
 En el campo de la ciencia tenemos el ejemplo de analizar el plegamiento de las proteínas. Con la computación cuántica se pueden explorar los posibles plegamientos que pueden tener estas moléculas. D-Wave en conjunto con investigadores de la universidad de Harvard diseñaron un sistema que predice los patrones de plegamiento de proteínas y han logrado pequeñas simulaciones. (D-Wave Systems, 2014)
@@ -349,9 +373,12 @@ El primer cliente de D-Wave fue Lockheed Martin. Es uno de los contratistas en d
 
 El D-Wave que compró Martin, cabe destacar que fue el primer D-Wave comercialmente disponible, está en el Instituto de Ciencias de la Información de la Universidad del Sur de California. Este instituto está posicionado a la cabeza de la investigación en computación cuántica.
 
+\part*{Conclusión}
+
 
 \clearpage
 \begin{thebibliography}{X}
+\index{Referencias}
 \bibitem{etiqueta} \textsc{Autor, A.} (año). \textit{Título del libro.} Lugar: Editorial
 \bibitem{revistaonline} \textsc{Autor, A.} (año). Título del artículo. \textit{Revista}, n, pp. doi: (o recuperado de)
 \bibitem{periodico} \textsc{Autor, A.} (año). Título de la notica. \textit{Periodico} Recuperado de
@@ -364,7 +391,8 @@ El D-Wave que compró Martin, cabe destacar que fue el primer D-Wave comercialme
 \bibitem{dwave6} \textsc{D-Wave Systems} (2014). Introduction to the D-Wave Quantum Hardware. Recuperado de http://www.dwavesys.com/tutorials/background-reading-series/introduction-d-wave-quantum-hardware
 \bibitem{dwave1} \textsc{D-Wave Systems} (2014). Quantum Computing. Recuperado de http://www.dwavesys.com/quantum-computing
 \bibitem{dwave5} \textsc{D-Wave Systems} (2014). The D-Wave Two System. Recuperado de http://www.dwavesys.com/d-wave-two-system
-\bibitem{feynman} \textsc{Feynman, R.} (1985). \textit{Quantum Mechanical Computers.} Recuperado de http://www.cs.princeton.edu/courses/archive/fall05/frs119/papers/feynman85_optics_letters.pdf
+\bibitem{feynman} \textsc{Feynman, R.} (1985). \textit{Quantum Mechanical Computers.} Recuperado de $http://www.cs.princeton.edu/courses/archive/fall05/frs119/papers$
+$/feynman85_optics_letters.pdf$
 \bibitem{herken} \textsc{Herken, R. (Ed.)} (1988). \textit{The Universal Turing Machine. A Half-Century Survey.} Oxford University Press
 \bibitem{markoff} \textsc{Markoff, J.} (2014). Scientists Report Finding Reliable Way to Teleport Data. \textit{The New York Times} Recuperado de http://www.nytimes.com/2014/05/30/science/scientists-report-finding-reliable-way-to-teleport-data.html
 \bibitem{moore} \textsc{Moore, G.} (1965). Cramming more components onto integrated circuits. \textit{Electronics.} Vol 3., No. 8.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.30)  29 JUN 2014 10:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.30)  29 JUN 2014 11:41
 entering extended mode
 **investigacion.tex
 (C:\Users\Emmanuel\Investigacion\investigacion.tex
@@ -30,10 +30,35 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\spanish.ldf"
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count87
+\U@D=\dimen103
+)
+\es@datefmt=\count88
+\es@quottoks=\toks14
+\es@quotdepth=\count89
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
+))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
@@ -257,51 +282,51 @@ Package: amstext 2000/06/29 v2.01
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks16
-\ex@=\dimen103
+\@emptytoks=\toks17
+\ex@=\dimen104
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen104
+\pmbraise@=\dimen105
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count87
+\inf@bad=\count90
 LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count88
-\leftroot@=\count89
+\uproot@=\count91
+\leftroot@=\count92
 LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count90
-\DOTSCASE@=\count91
+\classnum@=\count93
+\DOTSCASE@=\count94
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen105
+\big@size=\dimen106
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count92
-\c@MaxMatrixCols=\count93
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
 \dotsspace@=\muskip10
-\c@parentequation=\count94
-\dspbrk@lvl=\count95
-\tag@help=\toks17
-\row@=\count96
-\column@=\count97
-\maxfields@=\count98
-\andhelp@=\toks18
-\eqnshift@=\dimen106
-\alignsep@=\dimen107
-\tagshift@=\dimen108
-\tagwidth@=\dimen109
-\totwidth@=\dimen110
-\lineht@=\dimen111
-\@envbody=\toks19
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks18
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks19
+\eqnshift@=\dimen107
+\alignsep@=\dimen108
+\tagshift@=\dimen109
+\tagwidth@=\dimen110
+\totwidth@=\dimen111
+\lineht@=\dimen112
+\@envbody=\toks20
 \multlinegap=\skip44
 \multlinetaggap=\skip45
-\mathdisplay@stack=\toks20
+\mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
@@ -320,7 +345,7 @@ Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks21
+\KV@toks@=\toks22
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
@@ -342,159 +367,124 @@ Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count99
+\Gread@gobject=\count102
 ))
-\Gin@req@height=\dimen112
-\Gin@req@width=\dimen113
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks22
-\verbatim@line=\toks23
+\every@verbatim=\toks23
+\verbatim@line=\toks24
 \verbatim@in@stream=\read1
 )
 (C:\Users\Emmanuel\Investigacion\investigacion.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen114
+\scratchcounter=\count103
+\scratchdimen=\dimen115
 \scratchbox=\box28
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen115
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
-\everyMPtoPDFconversion=\toks25
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen116
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks26
 )
-LaTeX Font Info:    Try loading font information for U+msa on input line 32.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 32.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\Emmanuel\Investigacion\investigacion.toc)
-\tf@toc=\write3
- [1]
-Overfull \hbox (77.89325pt too wide) in paragraph at lines 60--65
-[]\OT1/cmr/m/it/10.95 Un es-pa-cio vec-to-rial lin-eal $\U/msb/m/n/10.95 V$ \OT
-1/cmr/m/it/10.95 es una coleccion de ob-je-tos $\OMS/cmsy/m/n/10.95 j\OT1/cmr/
-m/n/10.95 1\OMS/cmsy/m/n/10.95 i\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 j\OT1
-/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 i\OML/cmm/m/it/10.95 ; :::; \OMS/cmsy/m/n/1
-0.95 j\OML/cmm/m/it/10.95 V\OMS/cmsy/m/n/10.95 i\OML/cmm/m/it/10.95 ; :::; \OMS
-/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95 W\OMS/cmsy/m/n/10.95 i\OML/cmm/m/it/10.95 
-; :::;$
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [1]
+Overfull \hbox (77.89325pt too wide) in paragraph at lines 74--79
+[]\OT1/cmr/m/it/10.95 Un es-pa-cio vec-to-rial li-neal $\U/msb/m/n/10.95 V$ \OT
+1/cmr/m/it/10.95 es una co-lec-cion de ob-je-tos $\OMS/cmsy/m/n/10.95 j\OT1/cm
+r/m/n/10.95 1\OMS/cmsy/m/n/10.95 i\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 j\O
+T1/cmr/m/n/10.95 2\OMS/cmsy/m/n/10.95 i\OML/cmm/m/it/10.95 ; :::; \OMS/cmsy/m/n
+/10.95 j\OML/cmm/m/it/10.95 V\OMS/cmsy/m/n/10.95 i\OML/cmm/m/it/10.95 ; :::; \O
+MS/cmsy/m/n/10.95 j\OML/cmm/m/it/10.95 W\OMS/cmsy/m/n/10.95 i\OML/cmm/m/it/10.9
+5 ; :::;$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 74--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--65
+Underfull \hbox (badness 10000) in paragraph at lines 74--79
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 66.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
- [2
-
-]
-Overfull \hbox (3.75546pt too wide) in paragraph at lines 93--93
-\OT1/cmr/m/it/10.95 tores de E. Se llama com-bi-nacion lin-eal de los vec-tore
-s $\OML/cmm/m/it/10.95 v[]; v[]; :::; v[]$
+[2]
+Overfull \hbox (3.75546pt too wide) in paragraph at lines 107--107
+\OT1/cmr/m/it/10.95 to-res de E. Se lla-ma com-bi-na-cion li-neal de los vec-t
+o-res $\OML/cmm/m/it/10.95 v[]; v[]; :::; v[]$
  []
 
 
-Overfull \hbox (17.31519pt too wide) in paragraph at lines 93--94
-\OT1/cmr/m/it/10.95 se le de-nom-ina con-junto de com-bi-na-ciones lin-eales de
- $\OML/cmm/m/it/10.95 v[]; v[]; :::; v[]$\OT1/cmr/m/it/10.95 .(p.
+Overfull \hbox (17.31519pt too wide) in paragraph at lines 107--108
+\OT1/cmr/m/it/10.95 se le de-no-mi-na con-jun-to de com-bi-na-cio-nes li-nea-le
+s de $\OML/cmm/m/it/10.95 v[]; v[]; :::; v[]$\OT1/cmr/m/it/10.95 .(p.
  []
 
 [3] [4] [5] [6] <images/qubit.png, id=37, 250.9375pt x 266.9975pt>
 File: images/qubit.png Graphic file (type png)
 
 <use images/qubit.png>
-Package pdftex.def Info: images/qubit.png used on input line 161.
+Package pdftex.def Info: images/qubit.png used on input line 176.
 (pdftex.def)             Requested size: 161.9989pt x 172.37704pt.
  [7
 
-] [8 <C:/Users/Emmanuel/Investigacion/images/qubit.png>]
-Overfull \hbox (12.51334pt too wide) in paragraph at lines 235--238
-\OT1/cmr/m/n/10.95 ?`Podemos sim-u-lar cir-cuitos con com-puer-tas clasicas us
--ando cir-cuitos cuanticos?
- []
-
-[9] [10]
-Overfull \hbox (2.56418pt too wide) in paragraph at lines 262--263
-[]\OT1/cmr/m/n/10.95 Explicar el pro-ceso por el cual se lo-gra trans-ferir el 
-es-tado de una partcula
- []
-
-[11] [12]
-Overfull \hbox (1.51482pt too wide) in paragraph at lines 268--269
-[]\OT1/cmr/m/n/10.95 Fue fun-dada en 1999 por Geordie Rose, Haig Far-ris y Alex
-an-dre Zagoskin,
- []
-
-
-Overfull \hbox (1.8066pt too wide) in paragraph at lines 273--274
-\OT1/cmr/m/n/10.95 sta-laron la D-Wave Two en los lab-o-ra-to-rios de In-telige
-n-cia Ar-ti-fi-cial Cuantica
- []
-
-[13
+] [8 <C:/Users/Emmanuel/Investigacion/images/qubit.png>] [9] [10] [11] [12] [13
 
 ]
-Overfull \hbox (7.16pt too wide) in paragraph at lines 286--287
-\OT1/cmr/m/n/10.95 plo: op-ti-mizacion, analisis fi-nanciero, apren-dizaje de
- maquina, re-conocimiento
+Overfull \hbox (2.48018pt too wide) in paragraph at lines 314--315
+[]\OT1/cmr/m/n/10.95 En cuan-to al pro-ce-sa-dor hay una sin-gu-la-ri-dad im-po
+r-tan-te. En una compu-
  []
 
 [14] <images/cmos.png, id=66, 220.825pt x 220.825pt>
 File: images/cmos.png Graphic file (type png)
  <use images/cmos.png>
-Package pdftex.def Info: images/cmos.png used on input line 297.
+Package pdftex.def Info: images/cmos.png used on input line 320.
 (pdftex.def)             Requested size: 161.9989pt x 162.00621pt.
 
 <images/squid.jpg, id=67, 131.4pt x 85.7385pt>
 File: images/squid.jpg Graphic file (type jpg)
  <use images/squid.jpg>
-Package pdftex.def Info: images/squid.jpg used on input line 298.
+Package pdftex.def Info: images/squid.jpg used on input line 321.
 (pdftex.def)             Requested size: 161.9989pt x 105.71152pt.
  [15 <C:/Users/Emmanuel/Investigacion/images/cmos.png> <C:/Users/Emmanuel/Inves
 tigacion/images/squid.jpg>] <images/proce.jpg, id=72, 226.446pt x 182.1204pt>
 File: images/proce.jpg Graphic file (type jpg)
 
 <use images/proce.jpg>
-Package pdftex.def Info: images/proce.jpg used on input line 310.
+Package pdftex.def Info: images/proce.jpg used on input line 333.
 (pdftex.def)             Requested size: 161.9989pt x 130.2929pt.
  [16
 
@@ -502,13 +492,13 @@ Package pdftex.def Info: images/proce.jpg used on input line 310.
 <images/dwave.jpg, id=76, 180.675pt x 120.45pt>
 File: images/dwave.jpg Graphic file (type jpg)
  <use images/dwave.jpg>
-Package pdftex.def Info: images/dwave.jpg used on input line 324.
+Package pdftex.def Info: images/dwave.jpg used on input line 347.
 (pdftex.def)             Requested size: 161.9989pt x 107.99963pt.
 
 <images/esquema.jpg, id=77, 501.875pt x 331.2375pt>
 File: images/esquema.jpg Graphic file (type jpg)
  <use images/esquema.jpg>
-Package pdftex.def Info: images/esquema.jpg used on input line 332.
+Package pdftex.def Info: images/esquema.jpg used on input line 355.
 (pdftex.def)             Requested size: 161.9989pt x 106.91803pt.
 
 [17
@@ -517,43 +507,62 @@ Package pdftex.def Info: images/esquema.jpg used on input line 332.
 acion/images/esquema.jpg>] [18
 
 ] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 361--362
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
 []\OT1/cmr/m/sc/10.95 D-Wave Sys-tems \OT1/cmr/m/n/10.95 (2014). Ap-pli-ca-tion
-s. Re-cu-per-ado de
+s. Re-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
-[]\OT1/cmr/m/sc/10.95 D-Wave Sys-tems \OT1/cmr/m/n/10.95 (2014). Cus-tomers. Re
--cu-per-ado de
+Underfull \hbox (badness 10000) in paragraph at lines 386--387
+[]\OT1/cmr/m/sc/10.95 D-Wave Sys-tems \OT1/cmr/m/n/10.95 (2014). Cus-to-mers. R
+e-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 363--364
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
 []\OT1/cmr/m/sc/10.95 D-Wave Sys-tems \OT1/cmr/m/n/10.95 (2014). In-dus-tries. 
-Re-cu-per-ado de
+Re-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 365--366
+Underfull \hbox (badness 1237) in paragraph at lines 389--390
 []\OT1/cmr/m/sc/10.95 D-Wave Sys-tems \OT1/cmr/m/n/10.95 (2014). Quan-tum Com-p
-ut-ing. Re-cu-per-ado de
+u-ting. Re-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
-[]\OT1/cmr/m/sc/10.95 Markoff, J. \OT1/cmr/m/n/10.95 (2014). Sci-en-tists Re-po
-rt Find-ing Re-li-able
+Underfull \hbox (badness 10000) in paragraph at lines 391--393
+[]\OT1/cmr/m/sc/10.95 Feynman, R. \OT1/cmr/m/n/10.95 (1985). \OT1/cmr/m/it/10.9
+5 Quan-tum Me-cha-
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 368--369
-\OT1/cmr/m/n/10.95 Way to Tele-port Data. \OT1/cmr/m/it/10.95 The New York Time
-s \OT1/cmr/m/n/10.95 Re-cu-per-ado de
+Underfull \hbox (badness 10000) in paragraph at lines 391--393
+\OT1/cmr/m/it/10.95 ni-cal Com-pu-ters. \OT1/cmr/m/n/10.95 Re-cu-pe-ra-do de $\
+OML/cmm/m/it/10.95 http \OT1/cmr/m/n/10.95 :$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+Underfull \hbox (badness 10000) in paragraph at lines 391--393
+$\OML/cmm/m/it/10.95 ==www:cs:princeton:edu=courses=archive=fall\OT1/cmr/m/n/10
+.95 05\OML/cmm/m/it/10.95 =frs\OT1/cmr/m/n/10.95 119\OML/cmm/m/it/10.95 =papers
+$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
+[]\OT1/cmr/m/sc/10.95 Markoff, J. \OT1/cmr/m/n/10.95 (2014). Scien-tists Re-por
+t Fin-ding Re-lia-ble
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 394--395
+\OT1/cmr/m/n/10.95 Way to Te-le-port Da-ta. \OT1/cmr/m/it/10.95 The New York Ti
+-mes \OT1/cmr/m/n/10.95 Re-cu-pe-ra-do de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 394--395
 \OT1/cmr/m/n/10.95 http://www.nytimes.com/2014/05/30/science/scientists-report-
 
  []
@@ -561,31 +570,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 368--369
 [20
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 []\OT1/cmr/m/sc/10.95 Von Neu-mann, J. \OT1/cmr/m/n/10.95 (1945). \OT1/cmr/m/it
 /10.95 First Draft of a Re-port on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-\OT1/cmr/m/it/10.95 the ED-VAC \OT1/cmr/m/n/10.95 Uni-ver-sity of Penn-syl-va-n
-ia. Re-cu-per-ado de
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+\OT1/cmr/m/it/10.95 the ED-VAC \OT1/cmr/m/n/10.95 Uni-ver-sity of Pennsyl-va-ni
+a. Re-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
 \OT1/cmr/m/n/10.95 http://www.virtualtravelog.net/wp/wp-content/media/2003-08-
  []
 
 [21] (C:\Users\Emmanuel\Investigacion\investigacion.aux) ) 
 Here is how much of TeX's memory you used:
- 2347 strings out of 493921
- 28963 string characters out of 3144867
- 83301 words of memory out of 3000000
- 5610 multiletter control sequences out of 15000+200000
+ 2950 strings out of 493921
+ 36306 string characters out of 3144867
+ 97438 words of memory out of 3000000
+ 6207 multiletter control sequences out of 15000+200000
  12360 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,8n,24p,1084b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,27p,1084b,248s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files (x86)
@@ -601,7 +610,7 @@ pe1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/symbols/msbm10.pfb>
-Output written on investigacion.pdf (22 pages, 616446 bytes).
+Output written on investigacion.pdf (22 pages, 622345 bytes).
 PDF statistics:
  138 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

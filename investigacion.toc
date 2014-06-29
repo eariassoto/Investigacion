@@ -1,0 +1,3 @@
+\contentsline {part}{I\hspace {1em}Conceptos Fundamentales}{2}
+\contentsline {part}{II\hspace {1em}Computaci\IeC {\'o}n Cu\IeC {\'a}ntica (considerar otro nombre menos extenso}{7}
+\contentsline {part}{III\hspace {1em}D-Wave Systems}{13}

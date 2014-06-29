@@ -222,11 +222,11 @@ $H =  \frac{1}{\sqrt{2}}  \begin{bmatrix}
            \end{bmatrix}$.
 
 \section*{Compuertas con múltiples qubits}
- CONTROLLED NOT
+\subsection*{CONTROLLED NOT}
  En un CONTROLLED NOT entran dos datos, \textit{a} y \textit{b}, y salen dos datos \textit{a'} y \textit{b'}. \textit{a} es la línea de control: si se activa y \textit{a}=1, entonces \textit{b'} es la negación de \textit{b}. Si \textit{a}=0, entonces \textit{b}=\textit{b'}. La acción de un CONTROLLED NOT es revertida al aplicar un CNOT de nuevo. 
 La salida \textit{b'} es en realidad una función simétrica de \textit{a} y \textit{b} conocida como XOR. Es a la vez la suma módulo dos de \textit{a} y \textit{b}. Se puede utilizar para comparar los valores de \textit{a} y \textit{b} y dar como resultado 1 cuando son diferentes. (Feynman, 1985, p.12)
 
-CONTROLLED CONTROLLED NOT
+\subsection*{CONTROLLED CONTROLLED NOT}
 En este caso hay dos líneas de control a y b que modifican a la tercera línea c y le aplican un NOT sólo cuando ambas líneas de control están activadas (a=1 y b=1). Si no, la salida c' se mantiene inmutada. (Feynman, 1985, p.12)
 
 El CNOT y las compuertas de un qubit son los prototipos necesarios para hacer cualquier otro tipo de compuerta (son el NAND de los bits clásicos). (Nielsen, 2010, p.22)

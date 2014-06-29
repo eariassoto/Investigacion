@@ -59,7 +59,7 @@ En la parte I repasamos conceptos matemáticos para comprender las bases de la m
 
 En la parte II establecemos algunas diferencias entre la computación clásica y la computación cuántica, empezando por su unidad más básica: qubits. Luego ampliamos las diferencias a compuertas clásicas y su equivalente cuántico. Establecemos la importancia de dos efectos cuánticos: la superposición y el entrelazamiento y cómo estos afectan los qubits. Por último mencionamos la teletransportación cuántica y cómo puede ser una base para nuevos tipos de transferencia de datos.
 
-En la última parte, pero no por eso menos importante exponemos una aplicación tangente de la computación cuántica. La compañía D-Wave Systems clama haber construido la primera computadora cuántica comercial de mundo. Nos parece interesante investigar sobre el nacimiento de esta y el desarrollo que han hecho en la computación cuántica. Luego nos enfocamos en la arquitectura de hardware que poseen sus computadoras, sus componentes básicos y el funcionamiento de estas. Finalmente, exponemos las posibles aplicaciones que podría tener la computación cuántica desde la visión de D-Wave Systems y además mencionamos algunos de los usuarios de las máquinas D-Wave
+En la última parte, pero no por eso menos importante exponemos una aplicación tangente de la computación cuántica. La compañía D-Wave Systems clama haber construido la primera computadora cuántica comercial de mundo. Nos parece interesante investigar sobre el nacimiento de esta y el desarrollo que han hecho en la computación cuántica. Luego nos enfocamos en la arquitectura de hardware que poseen sus computadoras, sus componentes básicos y el funcionamiento de estas. Finalmente, exponemos las posibles aplicaciones que podría tener la computación cuántica desde la visión de D-Wave Systems y además mencionamos algunos de los usuarios de las máquinas D-Wave.
 
 \part{Conceptos Fundamentales}
 \index{Conceptos Fundamentales}
@@ -121,7 +121,7 @@ Sean $\vec{a}=(a_{1},a_{2},...,a_{n})^{t}$ y $\vec{b}=(b_{1},b_{2},...,b_{n})^{t
 \end{center}
 }
 \end{quote}
-Es decir, si tenemos dos vectores podemos multiplicar las entradas de estos en orden y la suma de estos dará un número real, o complejo dependiendo del campo. Debemos anotar que esta es la notación ordinaria de vectores. En la notación Dirac si tenemos los vectores \textit{V} y \textit{W} el producto punto está denotado como $\langle V\vert W\rangle$. Dos vectores son \textit{ortogonales o perpendiculares} si y solo si $\langle V\vert W\rangle=0$.
+ Es decir, si tenemos dos vectores podemos multiplicar las entradas de estos en orden y la suma de estos dará un número real, o complejo dependiendo del campo. Debemos anotar que esta es la notación ordinaria de vectores. En la notación Dirac si tenemos los vectores \textit{V} y \textit{W} el producto punto está denotado como $\langle V\vert W\rangle$. Dos vectores son \textit{ortogonales o perpendiculares} si y solo si $\langle V\vert W\rangle=0$.
 Por otro lado, la norma de un vector, también conocida como magnitud, de una forma generalizada se define por: "$\sqrt{\langle V\vert V\rangle}\equiv\vert V \vert$ (...). Un \textit{vector normal} tiene una norma igual a uno." (Shankar, 1994, p. 9)
 
 Ahora bien, aclarados esto términos podemos definir una \textit{base ortonormal} como: $"$Un conjunto de vectores base normales, los cuales son ortogonales dos a dos." (Shankar, 1994, p. 9).
@@ -146,11 +146,11 @@ el futuro de la electrónica integrada es el futuro de la electrónica misma.(..
 
 La electrónica integrada hará las técnicas electrónicas más accesibles al resto de la sociedad, realizando muchas funciones que en el presente se hacen inadecuadamente o no se hacen del todo. La principal ventaja serán bajos costos y diseños grandemente simplificados---recompensa de un suministro de paquetes funcionales de bajo costo. (pp. 1-2)
 \end{quote}
-Sin embargo, él propone en este artículo una cierta preocupación. Moore (1965) esperaba que para la siguiente década se duplicara el número de componentes en un circuito integrado. Esta aproximación resulto ser casi apegada a la realidad del futuro tanto que se le dió el nombre de \textit{Ley de Moore}.
+ Sin embargo, él propone en este artículo una cierta preocupación. Moore (1965) esperaba que para la siguiente década se duplicara el número de componentes en un circuito integrado. Esta aproximación resulto ser casi apegada a la realidad del futuro tanto que se le dió el nombre de \textit{Ley de Moore}.
 
 Con esto ya expuesto podemos tener una aproximación del futuro en la construcción de computadores a nivel de hardware. El crecimiento acelerado de componentes va a llegar a un punto donde va a ser necesario buscar una solución. Es aquí donde Nielsen y Chuang (2010) proponen como solución buscar nuevos paradigmas computacionales, y uno de estos puede ser fruto de la teoría de la computación cuántica. Los autores hablan sobre computadoras que procesen información usando métodos de mecánica cuántica a velocidad increíblemente rápidas en comparación con los métodos actuales con mecánica clásica. (pp. 4-5) Por tanto, decidimos investigar acerca de estos métodos de computación mediante mecánica cuántica. Como primera instancia, expondremos las unidades básicas y características fundamentales de la computación cuántica.
 \clearpage
-\part{Computación Cuántica (considerar otro nombre menos extenso}
+\part{Computación Cuántica}
 \section*{Qubits}
 
 Los quantum bits, o qubits, son objetos matemáticos que tiene dos posibles estados,  $\vert 0\rangle$ y $\vert 1\rangle$. La diferencia entre un qubit y un bit normal es que un qubit puede tener estados adicionales formados por combinaciones lineales de sus estados originales. (Nielsen, 2010, p.13)

@@ -45,11 +45,8 @@ Sanders \textsc{Pacheco A.} % Supervisor's Name
 
 \end{titlepage}
 
-%\tableofcontents 
-%\clearpage
-
-
 \part*{Introducción}
+\addcontentsline{toc}{part}{Introducción}
 
 ‘‘Computación cuántica’’ es un término popular en las noticias de avances tecnológicos hoy en día. Es una área de investigación que finalmente se puede realizar físicamente, después de años de desarrollarse teóricamente. Algunos creen que puede ser un gran avance y solucionar problemas complejos de gran magnitud, mientras otros creen que no hay diferencia alguna entre la computación clásica y la cuántica. 
 
@@ -61,8 +58,8 @@ En la parte II establecemos algunas diferencias entre la computación clásica y
 
 En la última parte, pero no por eso menos importante exponemos una aplicación tangente de la computación cuántica. La compañía D-Wave Systems clama haber construido la primera computadora cuántica comercial de mundo. Nos parece interesante investigar sobre el nacimiento de esta y el desarrollo que han hecho en la computación cuántica. Luego nos enfocamos en la arquitectura de hardware que poseen sus computadoras, sus componentes básicos y el funcionamiento de estas. Finalmente, exponemos las posibles aplicaciones que podría tener la computación cuántica desde la visión de D-Wave Systems y además mencionamos algunos de los usuarios de las máquinas D-Wave.
 
+\clearpage
 \part{Conceptos Fundamentales}
-\index{Conceptos Fundamentales}
 
 En este capítulo vamos a desarrollar las bases necesarias para poder llegar a un pleno entendimiento de la investigación. Es una especie de marco teórico donde se abarcará la terminología básica de ciertos conceptos matemáticos y computacionales tratados en los siguientes capítulos. No debe entenderse como un glosario o un capítulo de definiciones sino que, este es el comienzo de la investigación en su etapa más básica.
 
@@ -128,15 +125,15 @@ Ahora bien, aclarados esto términos podemos definir una \textit{base ortonormal
 
 \section*{Introducción a la Mecánica Cuántica}
 
-En cuanto al concepto de mecánica cuántica no discutiremos a profundidad los postulados que este propone, puesto que eso sería un enorme discusión. Sin embargo, vamos a comparar el primer postulado de la mecánica cuántica con el primer postulado de la mecánica clásica. El primero afirma que: ''El estado de una partícula en algún momento dado está especificado por las variables \textit{x(t)} y \textit{p(t)}, i.e., como un punto en un espacio de dos dimensiones.'' (Shankar, 1994, p. 115). Mientras que el segundo dice que: ''El estado de una partícula está representado por el vector $\vert \psi(t)\rangle$ en un espacio Hilbert.'' (Shankar, 1994, p.115)
+En cuanto al concepto de mecánica cuántica no discutiremos a profundidad los postulados que este propone, puesto que eso sería un enorme discusión. Sin embargo, vamos a comparar el primer postulado de la mecánica cuántica con el primer postulado de la mecánica clásica. El primero afirma que: ‘‘El estado de una partícula en algún momento dado está especificado por las variables \textit{x(t)} y \textit{p(t)}, i.e., como un punto en un espacio de dos dimensiones.’’ (Shankar, 1994, p. 115). Mientras que el segundo dice que: ‘‘El estado de una partícula está representado por el vector $\vert \psi(t)\rangle$ en un espacio Hilbert.’’ (Shankar, 1994, p.115)
 
-Con este postulado, podríamos decir que tenemos la base para comprender el concepto de los qubits. Pero en general, ¿qué es la mecánica cuántica? Nielsen y Chuang (2010) la definen como: ''(...)un marco matemático o un conjunto de reglas para la construcción de teorías de la física.'' (p. 2). Nos parece contextualmente comprensible la analogía que plantean estos autores. En esta, comparan la relación que tiene la mecánica cuántica y las teorías que derivan de ella con un sistema operativo y sus aplicaciones de software (p. 2). Como vemos entre ambas relaciones hay una conexión de base, donde el primer concepto sirve de fundamento para que se creen los elementos con los cuales se relacionan.
+Con este postulado, podríamos decir que tenemos la base para comprender el concepto de los qubits. Pero en general, ¿qué es la mecánica cuántica? Nielsen y Chuang (2010) la definen como: ‘‘(...)un marco matemático o un conjunto de reglas para la construcción de teorías de la física.’’ (p. 2). Nos parece contextualmente comprensible la analogía que plantean estos autores. En esta, comparan la relación que tiene la mecánica cuántica y las teorías que derivan de ella con un sistema operativo y sus aplicaciones de software (p. 2). Como vemos entre ambas relaciones hay una conexión de base, donde el primer concepto sirve de fundamento para que se creen los elementos con los cuales se relacionan.
 
 Incluso yendo más allá de una simple definición y contexto histórico Nielsen y Chuang (2010) se atreven, luego de hacer una línea de tiempo en el desarrollo de la mecánica cuántica, a proponerla como un reto para la computación. Ellos exponen los inicios de esta nueva forma de ver la física, que se remontan a las años 20 hasta los hallazgos más destacables que datan desde los años 70 hasta la actualidad. Luego, hace una reflexión acerca de que los intentos por desarrollar nuevos hallazgos científicados, aunque sea por mera corazonada, han dado nacimiento a importantes descubrimientos en la historia de la humanidad. Es aquí donde ellos recalcan que la computación e informática cuántica caben a la perfección en este esquema de resolver retos propuestos por nuevos esquemas de conocimiento. (pp. 2-3)
 
 Entonces, el desarrollo de la mecánica cuántica en las ciencias de la computación puede representar un inmenso avance en el desarrollo de soluciones para los problemas propios de este ciencia. 
 
-Para poner un ejemplo, vamos a retroceder un momento en la historia y remontemos sobre los inicios de la computación. Si nos colocamos en los antecedentes de las primeras computadoras electrónicas tenemos el gran aporte de Alan Turing. Turing (1936) propone el concepto de una máquina que es capaz de interpretar un número finito de instrucciones llamadas "m-configurations". Esta máquina será alimentada por una cinta seccionada que va a contener el conjunto de instrucciones que se desean que la máquina interprete y como resultado imprimirá en otra cinta los resultados de las instrucciones que la máquina va a interpretar. (p. 232). Solo para recalcar la importancia del trabajo de Turing, Herken (1998) afirma que: ''Es bastante sorprendente ver cómo, en tan sólo diez años después de ''Computable Numbers'', había traducido sus ideas en una poderosa visión profética del potencial de la tecnología informática'' (p. 8) 
+Para poner un ejemplo, vamos a retroceder un momento en la historia y remontemos sobre los inicios de la computación. Si nos colocamos en los antecedentes de las primeras computadoras electrónicas tenemos el gran aporte de Alan Turing. Turing (1936) propone el concepto de una máquina que es capaz de interpretar un número finito de instrucciones llamadas "m-configurations". Esta máquina será alimentada por una cinta seccionada que va a contener el conjunto de instrucciones que se desean que la máquina interprete y como resultado imprimirá en otra cinta los resultados de las instrucciones que la máquina va a interpretar. (p. 232). Solo para recalcar la importancia del trabajo de Turing, Herken (1998) afirma que: ‘‘Es bastante sorprendente ver cómo, en tan sólo diez años después de ‘‘Computable Numbers’’, había traducido sus ideas en una poderosa visión profética del potencial de la tecnología informática’’ (p. 8) 
 
 Volviendo a la línea histórica, tenemos el trabajo de Turing que mencionamos que data de 1936, seguido por el trabajo de John Von Neumann. Los aportes que Von Neumann hizo al conocimiento científico en general son muchos y en diversas áreas (incluyendo en la mecánica cuántica) pero ahora nos limitaremos a su trabajo \textit{First Draft of a Report on the EDVAC}. Incluso siendo una borrador incompleto, muestra la arquitectura de la computadora EDVAC. Esta se convirtió en la arquitectura más usada en la creación de nuevas computadoras y como base se ha mantenido hasta la actualidad. Con la invención del transistor en 1947 el desarrollo de nuevo hardware se vió impulsado y esta arquitectura obtuvo mucha más fuerza.
 
@@ -161,7 +158,7 @@ Asumiendo que tenemos un espacio vectorial $\mathbb{C}$, podemos afirmar que los
 $\vert \psi \rangle = \alpha \vert 0\rangle + \beta \vert 1\rangle$
 \end{center}
 
-Los números $\alpha$ y $\beta$ son números complejos, aunque estos se pueden asumir como números reales. De otra manera, el estado de un qubit es un espacio vectorial complejo de dos dimensiones. Los estados $\vert 0\rangle$ y $\vert 1\rangle$ se conocen como ''estados base computacionales'' y forman una base ortonormal para este espacio vectorial. (Nielsen, 2010, p.13)
+Los números $\alpha$ y $\beta$ son números complejos, aunque estos se pueden asumir como números reales. De otra manera, el estado de un qubit es un espacio vectorial complejo de dos dimensiones. Los estados $\vert 0\rangle$ y $\vert 1\rangle$ se conocen como ‘‘estados base computacionales’’ y forman una base ortonormal para este espacio vectorial. (Nielsen, 2010, p.13)
 
 Podemos examinar un bit clásico para ver el valor que éste tiene. Por ejemplo, las computadoras revisan valores de bits constantemente al extraer contenidos de memoria. Sin embargo, no podemos examinar un qubit para determinar el estado en el que está. La mecánica cuántica nos dice que tenemos acceso solamente a información restringida sobre el estado cuántico de un qubit. Cuando medimos un qubit podemos tener dos posibles resultados: 0 con probabilidad $\alpha^2$ o 1 con probabilidad de $\beta^2$. La suma de ambas probabilidades debe dar 1. Geométricamente, podemos interpretar esto como la condición en la cual el estado del qubit se normaliza a 1. En general, el estado de un qubit es un vector unitario en un espacio vectorial complejo de dos dimensiones.  (Nielsen, 2010, p.13)
 
@@ -269,7 +266,7 @@ El entrelazamiento consiste en un sistema formado por dos o más subsistemas. En
 
 \section*{Teletrasportación cuántica}
 
-A veces, la ciencia ficción deja de ser ficción para convertirse en tecnología del presente. Muchos recordarán la serie \textit{Star Trek} y como el Capitán Kirk era teletransportado a la nave \textit{Enterprise} com su famosa frase: \textit{''Beam me up Scotty''}. Este tipo de ideas, que un principio existen solo en la ficción pasan a ser investigadas en tangenciales campos científicos. En el apartado anterior desarrollamos el concepto de entrelazamiento cuántico por un motivo. Gracias a esta propiedad de las partículas cuánticas se ha logrado la \textit{teletransportación cuántica}. 
+A veces, la ciencia ficción deja de ser ficción para convertirse en tecnología del presente. Muchos recordarán la serie \textit{Star Trek} y como el Capitán Kirk era teletransportado a la nave \textit{Enterprise} com su famosa frase: \textit{‘‘Beam me up Scotty’’}. Este tipo de ideas, que un principio existen solo en la ficción pasan a ser investigadas en tangenciales campos científicos. En el apartado anterior desarrollamos el concepto de entrelazamiento cuántico por un motivo. Gracias a esta propiedad de las partículas cuánticas se ha logrado la \textit{teletransportación cuántica}. 
 
 Los inicios de la teletransportación se remontan a los años 80 cuando William Wootters y W. Zurek presentan el \textit{Teorema del no clonado}, el cual muestra que una partícula cuántica no puede ser clonada. El teorema dice que, si tenemos una partícula, es imposible copiar su estado en otra, mientras la partícula original permanezca igual.  Por tanto, no se puede tener una especie de dispositivo que copie las propiedades de una partícula en otra. La solución dada a este problema por los físicos fue la de imprimir el estado de una partícula en otro y hacerla desaparecer en la original. Este proceso es el que se conoce como \textit{teletransportación}  (Aczel, 2001, p. 242)
 
@@ -373,7 +370,22 @@ El primer cliente de D-Wave fue Lockheed Martin. Es uno de los contratistas en d
 
 El D-Wave que compró Martin, cabe destacar que fue el primer D-Wave comercialmente disponible, está en el Instituto de Ciencias de la Información de la Universidad del Sur de California. Este instituto está posicionado a la cabeza de la investigación en computación cuántica.
 
+\clearpage
 \part*{Conclusión}
+\addcontentsline{toc}{part}{Conclusión}
+
+Existen similitudes y diferencias en cuanto a la realización física y procesos lógicos de una computadora clásica y una computadora cuántica. Para poder construir un procesador cuántico que supere a uno normal, hay que tener clara las limitaciones de los materiales y la lógica cuántica. También implica el cruce de varias áreas académicas, no solamente física y computación, ya que tener una computadora que resuelva una gran gama de problemas complejos es un beneficio para acercarnos a preguntas que aún no tienen respuesta. 
+
+Este nuevo modelo presenta un cambio total en el paradigma computacional de la época. Pasamos de tener un ambiente de ‘‘confort’’ donde todos los involucrados en la computación (tanto en software como hardware) se desenvuelven bajo una arquitectura que lleva prácticamente desde los inicios de la computación electrónica a tener que aprender desde cero. Ya no tendríamos bits ni estados definidos. Los paradigmas de programación cambiarían totalmente. Los circuitos integrados cambian su forma de funcionar a otra más compleja y regida bajo mecánicas cuánticas. Actualmente, hay opiniones encontradas entre los defensores de la computación cuántica y de otros que son más escépticos a invertir en esta tecnología.
+
+Físicamente las computadoras cuánticas son muy especializadas y muy caras todavía, no están disponibles como cualquier computadora portátil. Sin embargo, puede que en estos años se mejore la construcción y eso permita producirlas en masa para el público general. 
+
+Podemos afirmar que la computación cuántica recién está dando sus primeros pasos. Todavía es muy temprano para afirmar que puede delimitar un nuevo paradigma computacional o cambiar el mundo. Nunca se ha hecho algo así antes, entonces las compañías como D-Wave están abriendo camino para nuevos saltos cognitivos que lleven al desarrollo tecnológico. 
+
+Nos atrevemos a decir que, la gran mayoría de la tecnología humana, sino toda, nace de personas soñadoras y emprendedoras que fijaron sus ojos en una meta. En un pasado, no existía la suficiente tecnología para poner en práctica la teoría ya planteada. Por ejemplo, hace medio siglo, el escritor Isaac Asimov escribió un ensayo donde expone sus predicciones para el mundo en el 2014, y sus predicciones son muy precisas leyéndolas ahora. Nuestro punto es que actualmente tenemos esas ideas, esas teorías y la tecnología necesaria para crear un nuevo modelo computacional. Por supuesto, tal vez descubramos que no sea viable ni sea el ‘‘futuro’’ de la computación pero para eso tenemos que continuar innovando con el fin de perfeccionar la computación de como la conocemos hoy.
+
+\clearpage
+\tableofcontents 
 
 
 \clearpage

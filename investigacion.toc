@@ -1,5 +1,6 @@
 \select@language {spanish}
-\contentsline {part}{I\hspace {1em}Introducci\IeC {\'o}n}{2}
-\contentsline {part}{II\hspace {1em}Conceptos Fundamentales}{2}
-\contentsline {part}{III\hspace {1em}Computaci\IeC {\'o}n Cu\IeC {\'a}ntica (considerar otro nombre menos extenso}{8}
-\contentsline {part}{IV\hspace {1em}D-Wave Systems}{14}
+\contentsline {part}{Introducci\IeC {\'o}n}{1}
+\contentsline {part}{I\hspace {1em}Conceptos Fundamentales}{2}
+\contentsline {part}{II\hspace {1em}Computaci\IeC {\'o}n Cu\IeC {\'a}ntica}{7}
+\contentsline {part}{III\hspace {1em}D-Wave Systems}{13}
+\contentsline {part}{Conclusi\IeC {\'o}n}{20}

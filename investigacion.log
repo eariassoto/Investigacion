@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.6.7)  29 JUN 2014 19:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.5.30)  20 JUL 2014 19:09
 entering extended mode
 **investigacion.tex
-(C:\Users\emman_000\Investigacion\investigacion.tex
+(C:\Users\Emmanuel\Investigacion\investigacion.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,9 +13,9 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -30,19 +30,19 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\spanish.ldf"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\spanish.ldf"
 Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
@@ -55,19 +55,19 @@ Package babel Info: Making . an active character on input line 585.
 Package babel Info: Making < an active character on input line 630.
 Package babel Info: Making > an active character on input line 630.
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -217,7 +217,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -248,7 +248,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -272,24 +272,24 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen104
 ))
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -330,41 +330,41 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count102
@@ -372,16 +372,16 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
 )
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
 Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks23
 \verbatim@line=\toks24
 \verbatim@in@stream=\read1
 )
-(C:\Users\emman_000\Investigacion\investigacion.aux)
+(C:\Users\Emmanuel\Investigacion\investigacion.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -395,7 +395,7 @@ LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
 \scratchdimen=\dimen115
@@ -410,17 +410,17 @@ LaTeX Font Info:    ... okay on input line 11.
 \everyMPtoPDFconversion=\toks26
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 33.
- ("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
-("D:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(C:\Users\emman_000\Investigacion\investigacion.toc)
+(C:\Users\Emmanuel\Investigacion\investigacion.toc)
 \tf@toc=\write3
  [1] [2
 
@@ -467,8 +467,8 @@ Package pdftex.def Info: images/qubit.png used on input line 176.
 (pdftex.def)             Requested size: 161.9989pt x 172.37704pt.
  [8
 
-] [9 <C:/Users/emman_000/Investigacion/images/qubit.png>] [10] [11] [12] [13] [
-14
+] [9 <C:/Users/Emmanuel/Investigacion/images/qubit.png>] [10] [11] [12] [13] [1
+4
 
 ]
 Overfull \hbox (2.48018pt too wide) in paragraph at lines 314--315
@@ -487,8 +487,8 @@ File: images/squid.jpg Graphic file (type jpg)
  <use images/squid.jpg>
 Package pdftex.def Info: images/squid.jpg used on input line 321.
 (pdftex.def)             Requested size: 161.9989pt x 105.71152pt.
- [16 <C:/Users/emman_000/Investigacion/images/cmos.png> <C:/Users/emman_000/Inv
-estigacion/images/squid.jpg>] <images/proce.jpg, id=75, 226.446pt x 182.1204pt>
+ [16 <C:/Users/Emmanuel/Investigacion/images/cmos.png> <C:/Users/Emmanuel/Inves
+tigacion/images/squid.jpg>] <images/proce.jpg, id=75, 226.446pt x 182.1204pt>
 File: images/proce.jpg Graphic file (type jpg)
 
 <use images/proce.jpg>
@@ -496,8 +496,8 @@ Package pdftex.def Info: images/proce.jpg used on input line 333.
 (pdftex.def)             Requested size: 161.9989pt x 130.2929pt.
  [17
 
- <C:/Users/emman_000/Investigacion/images/proce.jpg>] <images/dwave.jpg, id=79,
- 180.675pt x 120.45pt>
+ <C:/Users/Emmanuel/Investigacion/images/proce.jpg>]
+<images/dwave.jpg, id=79, 180.675pt x 120.45pt>
 File: images/dwave.jpg Graphic file (type jpg)
  <use images/dwave.jpg>
 Package pdftex.def Info: images/dwave.jpg used on input line 347.
@@ -511,68 +511,68 @@ Package pdftex.def Info: images/esquema.jpg used on input line 355.
 
 [18
 
- <C:/Users/emman_000/Investigacion/images/dwave.jpg> <C:/Users/emman_000/Invest
-igacion/images/esquema.jpg>] [19
+ <C:/Users/Emmanuel/Investigacion/images/dwave.jpg> <C:/Users/Emmanuel/Investig
+acion/images/esquema.jpg>] [19
 
 ] [20] [21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 399--400
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
 []\OT1/cmr/m/sc/10.95 D-Wave Sys-tems \OT1/cmr/m/n/10.95 (2014). Ap-pli-ca-tion
 s. Re-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 397--398
 []\OT1/cmr/m/sc/10.95 D-Wave Sys-tems \OT1/cmr/m/n/10.95 (2014). Cus-to-mers. R
 e-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+Underfull \hbox (badness 10000) in paragraph at lines 398--399
 []\OT1/cmr/m/sc/10.95 D-Wave Sys-tems \OT1/cmr/m/n/10.95 (2014). In-dus-tries. 
 Re-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 403--404
+Underfull \hbox (badness 1675) in paragraph at lines 400--401
 []\OT1/cmr/m/sc/10.95 D-Wave Sys-tems \OT1/cmr/m/n/10.95 (2014). Quan-tum Com-p
 u-ting. Re-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--407
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 []\OT1/cmr/m/sc/10.95 Feynman, R. \OT1/cmr/m/n/10.95 (1985). \OT1/cmr/m/it/10.9
 5 Quan-tum Me-cha-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--407
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 \OT1/cmr/m/it/10.95 ni-cal Com-pu-ters. \OT1/cmr/m/n/10.95 Re-cu-pe-ra-do de $\
 OML/cmm/m/it/10.95 http \OT1/cmr/m/n/10.95 :$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--407
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
 $\OML/cmm/m/it/10.95 ==www:cs:princeton:edu=courses=archive=fall\OT1/cmr/m/n/10
 .95 05\OML/cmm/m/it/10.95 =frs\OT1/cmr/m/n/10.95 119\OML/cmm/m/it/10.95 =papers
 $
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 []\OT1/cmr/m/sc/10.95 Markoff, J. \OT1/cmr/m/n/10.95 (2014). Scien-tists Re-por
 t Fin-ding Re-lia-ble
  []
 
 
-Underfull \hbox (badness 2932) in paragraph at lines 408--409
+Underfull \hbox (badness 2932) in paragraph at lines 405--406
 \OT1/cmr/m/n/10.95 Way to Te-le-port Da-ta. \OT1/cmr/m/it/10.95 The New York Ti
 -mes \OT1/cmr/m/n/10.95 Re-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--409
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
 \OT1/cmr/m/n/10.95 http://www.nytimes.com/2014/05/30/science/scientists-report-
 
  []
@@ -580,47 +580,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 408--409
 [22
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 []\OT1/cmr/m/sc/10.95 Von Neu-mann, J. \OT1/cmr/m/n/10.95 (1945). \OT1/cmr/m/it
 /10.95 First Draft of a Re-port on
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 \OT1/cmr/m/it/10.95 the ED-VAC \OT1/cmr/m/n/10.95 Uni-ver-sity of Pennsyl-va-ni
 a. Re-cu-pe-ra-do de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--415
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
 \OT1/cmr/m/n/10.95 http://www.virtualtravelog.net/wp/wp-content/media/2003-08-
  []
 
-[23] (C:\Users\emman_000\Investigacion\investigacion.aux) ) 
+[23] (C:\Users\Emmanuel\Investigacion\investigacion.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  2954 strings out of 493921
- 36425 string characters out of 3144865
+ 36416 string characters out of 3144867
  97438 words of memory out of 3000000
  6208 multiletter control sequences out of 15000+200000
  12360 words of font info for 45 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  27i,8n,27p,1084b,257s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/Program Files (x86)
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr8.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmsy8.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmti10.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmti12.pfb><D:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb>
-Output written on investigacion.pdf (24 pages, 625994 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on investigacion.pdf (24 pages, 625893 bytes).
 PDF statistics:
  144 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
